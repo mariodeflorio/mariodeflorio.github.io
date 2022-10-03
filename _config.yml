@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Mario De Florio"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
-  bio              : "I am an **amazing** person."
+  bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. Research on Physics-Informed Machine Learning"
   location         : "Tucson, AZ"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:mariodf@arizona.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
   bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. Research on Physics-Informed Machine Learning"
   location         : # "Tucson, AZ"
-  email            : "mariodf@arizona.edu"
+  email            : # "mariodf@arizona.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

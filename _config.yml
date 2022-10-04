@@ -110,7 +110,7 @@ author:
   location         : "Tucson, AZ"
   email            :
   links:
-    - label: "mariodf@arizona.edu"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mariodf@arizona.edu"
     - label: "SSEL"

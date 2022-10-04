@@ -2,8 +2,8 @@
 title:  "CV"
 layout: single
 permalink: /cv/
-author_profile: false
-comments: false
+author_profile: true
+comments: true
 ---
 
 My CV.

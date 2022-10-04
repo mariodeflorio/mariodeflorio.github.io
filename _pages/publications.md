@@ -30,9 +30,10 @@ Preprints
 </ul>
 
 <h1>
-Conference Papers
+Conference Proceedings
 </h1>
 
 <ul>
   <li>Schiassi, E., D'Ambrosio, A., Johnston, H., De Florio, M., Furfaro, R., Curti, F., Mortari, D., Physics-Informed Extreme Theory of Functional Connections Applied to Optimal Orbit Transfer. AAS 20-524, AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, August 9-13, 2020. <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
+  <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., De Florio, M., Schiassi, E., Chatelain, J., Lejoly, C. and Le Corre, L., 2019, September. Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In EPSC-DPS Joint Meeting 2019 (Vol. 2019, pp. EPSC-DPS2019). </li>
 </ul>

@@ -11,4 +11,4 @@ Graduated with MSc in Energy and Nuclear Engineering with a strong interest in e
 Currently, I am a Ph.D. candidate in Systems & Industrial Engineering at The University of Arizona in Tucson, AZ, with the main research interest in the development of Physics-Informed Machine Learning frameworks and their application to several fields, such as Radiative Transfer, Rarefied-gas Dynamics, Nuclear Reactor Dynamics, Chemical Kinetics, Epidemiology, Pharmacokinetics, and Biology systems. 
 Also, my research focuses on Remote Sensing for Asteroids and Meteorites parameters estimation.
 
-<font-awesome-icon icon="fa-solid fa-download" /> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.
+<i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.

@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Mario De Florio"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
-  bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. \n Research on Physics-Informed Machine Learning"
+  avatar           : "/_images/bio-photo.jpg" # path of avatar image
+  bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. Research on Physics-Informed Machine Learning"
   location         : "Tucson, AZ"
   email            :
   links:
@@ -117,7 +117,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://ssel.arizona.edu/person/mario-de-florio"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-scholar"
+      icon: "fab fa-fw fa-scholar"
       url: "https://scholar.google.com/citations?user=Wu6QaCQAAAAJ&hl=en&oi=ao"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

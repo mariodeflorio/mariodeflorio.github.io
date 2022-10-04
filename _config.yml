@@ -138,15 +138,15 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/mariodeflorio/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mariodeflorio"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Mario-De-Florio"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:

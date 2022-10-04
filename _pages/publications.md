@@ -1,15 +1,14 @@
 ---
-title:  "Journal Papers"
+title:  # "Journal Papers"
 layout: archive
 permalink: /publications/
 author_profile: true
 comments: true
 ---
 <h1>
-Peer-reviewed publications.
+Journal Papers.
 </h1>
-My publications.
 
-<li>
-test
-</li>
+<h1>
+Conference Papers.
+</h1>

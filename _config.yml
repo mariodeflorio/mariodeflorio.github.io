@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Mario De Florio"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
-  bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. Research on Physics-Informed Machine Learning"
+  bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. \n Research on Physics-Informed Machine Learning"
   location         : "Tucson, AZ"
   email            :
   links:

@@ -8,7 +8,7 @@ comments: true
 <h1>
 Journal Papers
 </h1>
-<font size="-1">
+<font size="2">
 <ul>
   <li>De Florio, M., Schiassi, E., and Furfaro, R., Physics-informed neural networks and functional interpolation for stiff chemical kinetics, Chaos 32, 063107 (2022) <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Ganapol, B.D. et al. Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. Z. Angew. Math. Phys. 73, 126 (2022). <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>

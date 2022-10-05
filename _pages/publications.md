@@ -8,7 +8,7 @@ comments: true
 <h1>
 Journal Papers
 </h1>
-<p>
+<font size="-1">
 <ul>
   <li>De Florio, M., Schiassi, E., and Furfaro, R., Physics-informed neural networks and functional interpolation for stiff chemical kinetics, Chaos 32, 063107 (2022) <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Ganapol, B.D. et al. Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. Z. Angew. Math. Phys. 73, 126 (2022). <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>
@@ -19,7 +19,7 @@ Journal Papers
   <li>De Florio, M., Schiassi, E., Ganapol, B.D., Furfaro, R., "Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar–Gross–Krook approximation", Physics of Fluids 33, 047110 (2021). <a href="https://doi.org/10.1063/5.0046181">DOI</a>   </li>
   <li>De Florio, M., Schiassi, E., Furfaro, R., Ganapol, B.D., Mostacci, D. (2020). Solutions of Chandrasekhar’s Basic Problem in Radiative Transfer via Theory of Functional Connections. Journal of Quantitative Spectroscopy & Radiative Transfer. p.107384. <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">DOI</a>   </li>
 </ul>
-</p>
+</font>
 
 <h1>
 Preprints

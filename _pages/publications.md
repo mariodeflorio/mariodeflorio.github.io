@@ -1,14 +1,14 @@
 ---
-title: # "Journal Papers"
+title: "Publications"
 layout: archive
 permalink: /publications/
 author_profile: true
 comments: true
 ---
-<h1>
+<h2>
 Journal Papers
-</h1>
-<font size="2">
+</h2>
+<font size="3">
 <ul>
   <li>De Florio, M., Schiassi, E., and Furfaro, R., Physics-informed neural networks and functional interpolation for stiff chemical kinetics, Chaos 32, 063107 (2022) <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Ganapol, B.D. et al. Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. Z. Angew. Math. Phys. 73, 126 (2022). <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>
@@ -21,9 +21,9 @@ Journal Papers
 </ul>
 </font>
 
-<h1>
+<h2>
 Preprints
-</h1>
+</h2>
 
 <font size="3">
 <ul>
@@ -32,11 +32,11 @@ Preprints
 </ul>
 </font>
 
-<h1>
+<h2>
 Conference Proceedings
-</h1>
+</h2>
 
-<font size="4">
+<font size="3">
 <ul>
   <li>Schiassi, E., D'Ambrosio, A., Johnston, H., De Florio, M., Furfaro, R., Curti, F., Mortari, D., Physics-Informed Extreme Theory of Functional Connections Applied to Optimal Orbit Transfer. AAS 20-524, AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, August 9-13, 2020. <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
   <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., De Florio, M., Schiassi, E., Chatelain, J., Lejoly, C. and Le Corre, L., 2019, September. Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In EPSC-DPS Joint Meeting 2019 (Vol. 2019, pp. EPSC-DPS2019). </li>

@@ -1,6 +1,6 @@
 ---
 title: # "Journal Papers"
-layout: home
+layout: default
 permalink: /publications/
 author_profile: true
 comments: true

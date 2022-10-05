@@ -147,9 +147,6 @@ footer:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Mario-De-Florio"
-    - label: "Bitbucket"S
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mariodeflorio/"

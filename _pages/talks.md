@@ -1,6 +1,6 @@
 ---
 title:  "Talks"
-layout: single
+layout: posts
 permalink: /talks/
 author_profile: true
 comments: true

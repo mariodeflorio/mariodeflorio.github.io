@@ -6,4 +6,3 @@ author_profile: true
 comments: true
 ---
 
-My CV.

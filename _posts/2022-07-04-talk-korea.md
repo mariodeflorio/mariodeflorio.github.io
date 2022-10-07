@@ -1,5 +1,5 @@
 ---
-title: "Physics-Informed Neural Network and Functional Interpolation for Rarefied-Gas Dynamics in the BGK Approximation"
+title: "32nd International Symposium on Rarefied Gas Dynamics (RGD32)"
 categories:
   - Physics-Informed Neural Networks
 tags:

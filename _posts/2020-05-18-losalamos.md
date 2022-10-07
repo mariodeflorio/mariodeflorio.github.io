@@ -24,5 +24,5 @@ In this work, we present a new approach to solving the Chandrasekhar's problem i
 
 </font>
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/Mario_LosAlamos_poster.pdf)
+Open the <a href="/assets/images/Mario_LosAlamos_poster.pdf">Poster</a>.
 

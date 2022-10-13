@@ -15,7 +15,7 @@ tags:
 Physics-informed Neural Network and Functional Interpolation for Rarefied-Gas Dynamics in the BGK Approximation
 <font size="2">
 <p><br></p>
-<p><span style="color: rgb(209, 213, 216);">M. De Florio, E. Schiassi, L. B. Barichello, B. D. Ganapol, R. Furfaro, </span></p>
+<p><span style="color: rgb(209, 213, 216);">M. De Florio, E. Schiassi, L. B. Barichello, B. D. Ganapol, R. Furfaro </span></p>
 </font>
 </h2>
 

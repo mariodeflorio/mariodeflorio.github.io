@@ -1,22 +1,15 @@
 ---
-layout: archive
+title:  "Mario De Florio"
+layout: single
+permalink: /about/
+author_profile: true
+comments: true
 ---
 
-{{ content }}
+Graduated with MSc in Energy and Nuclear Engineering with a strong interest in energy and sustainability. During my studies, I have developed a great passion for the nuclear sector for energy production, research, and radioprotection.
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+Currently, I am a Ph.D. candidate in Systems & Industrial Engineering at The University of Arizona in Tucson, AZ, with the main research interest in the development of Physics-Informed Machine Learning frameworks and their application to several fields, such as Radiative Transfer, Rarefied-gas Dynamics, Nuclear Reactor Dynamics, Chemical Kinetics, Epidemiology, Pharmacokinetics, and Biology systems. 
+Also, my research focuses on Remote Sensing for Asteroids and Meteorites parameters estimation.
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}

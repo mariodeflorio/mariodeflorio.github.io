@@ -1,5 +1,5 @@
 ---
-title:  "About"
+title:  "Mario De Florio"
 layout: single
 permalink: /about/
 author_profile: true

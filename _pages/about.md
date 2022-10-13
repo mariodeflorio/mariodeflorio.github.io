@@ -8,7 +8,7 @@ comments: true
 <h1>
 <font size="2">
 <p><br></p>
-<p><span style="color: rgb(209, 213, 216);">Department of Systems and Industrial Engineering, The University of Arizona </span></p>
+<p><span style="color: rgb(209, 213, 216);">Department of Systems and Industrial Engineering, The University of Arizona</span></p>
 </font>
 </h1>
 

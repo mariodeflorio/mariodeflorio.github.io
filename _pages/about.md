@@ -1,16 +1,17 @@
 ---
-title:  "Mario De Florio"
+title:  #"Mario De Florio"
 layout: single
 permalink: /about/
 author_profile: true
 comments: true
 ---
-<h1>
+<h2>
+Mario De Florio
 <font size="2">
 <p><br></p>
 <p><span style="color: rgb(209, 213, 216);">Department of Systems and Industrial Engineering, The University of Arizona</span></p>
 </font>
-</h1>
+</h2>
 
 <font size="3">
 Graduated with MSc in Energy and Nuclear Engineering with a strong interest in energy and sustainability. During my studies, I have developed a great passion for the nuclear sector for energy production, research, and radioprotection.

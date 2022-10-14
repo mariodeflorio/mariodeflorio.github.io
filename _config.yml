@@ -117,7 +117,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://ssel.arizona.edu/person/mario-de-florio"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fab fa-fw fa-file-lines"
       url: "https://scholar.google.com/citations?user=Wu6QaCQAAAAJ&hl=en&oi=ao"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

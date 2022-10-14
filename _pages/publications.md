@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 comments: true
 ---
+<div style="text-align: justify;"> 
 <h2>
 Journal Papers
 </h2>
@@ -42,3 +43,4 @@ Conference Proceedings
   <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., De Florio, M., Schiassi, E., Chatelain, J., Lejoly, C. and Le Corre, L., 2019, September. Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In EPSC-DPS Joint Meeting 2019 (Vol. 2019, pp. EPSC-DPS2019). </li>
 </ul>
 </font>
+</div>

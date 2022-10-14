@@ -1,0 +1,25 @@
+---
+title: "test project"
+categories:
+  - Theory of Functional Connections
+tags:
+  - Transport Theory
+  - Physics-Informed Neural Networks
+---
+
+
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/paris.jpg)
+
+<h2>
+Accurate Solutions of the Radiative Transfer Problem via Theory of Connections
+<font size="2">
+<p><br></p>
+<p><span style="color: rgb(209, 213, 216);">M. De Florio, E. Schiassi, R. Furfaro, B. D. Ganapol, D. Mostacci </span></p>
+</font>
+</h2>
+
+<font size="3">
+
+In this work, we present an approach to solving a class of radiative transfer problems using the newly developed Theory of Connections. The method is designed to efficiently and accurately solve the Linear One-Point Boundary Value Problem  arising from the integro-differential Boltzmannequation for Radiative Transfer via Chebyshev expansion of the boundary conditions-free and Least-Squares method. The proposed algorithm follows under the category of numerical methods for the solution of Transport Equations, and it is demonstrated to be accurate and suitable for applications in atmospheric science and remote sensing.
+</font>

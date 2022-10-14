@@ -2,7 +2,7 @@
 title: "Home"
 layout: home
 permalink: /
-hidden: true
+hidden: false
 feature_row:
   - image_path: /assets/images/research.jpg
     alt: "research"

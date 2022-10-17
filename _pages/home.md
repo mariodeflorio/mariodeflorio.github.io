@@ -1,8 +1,7 @@
 ---
 title: "Home"
-layout: home
+layout: single
 permalink: /
-hidden: false
 feature_row:
   - image_path: /assets/images/research.jpg
     alt: "research"

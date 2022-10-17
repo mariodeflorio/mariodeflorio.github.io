@@ -22,3 +22,5 @@ feature_row:
 ---
 
 My research.
+
+{% include feature_row %}

@@ -6,4 +6,4 @@ author_profile: true
 comments: true
 ---
 
-My research.
+My research page.

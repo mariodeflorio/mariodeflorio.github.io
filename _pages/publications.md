@@ -15,14 +15,14 @@ Journal Papers
 </h2>
 <font size="3">
 <ul>
-  <li>De Florio, M., Schiassi, E., and Furfaro, R., Physics-informed neural networks and functional interpolation for stiff chemical kinetics. <em>Chaos</em> 32, 063107 (2022). <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
-  <li>De Florio, M., Schiassi, E., Ganapol, B.D. et al. Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. <em>Z. Angew. Math. Phys.</em> 73, 126 (2022). <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>
-  <li>Schiassi, E., De Florio, M., Ganapol, B.D., Picca, P. and Furfaro, R., 2021. Physics-informed neural networks for the point kinetics equations for nuclear reactor dynamics. <em>Annals of Nuclear Energy</em>, p. 108833. <a href="https://doi.org/10.1016/j.anucene.2021.108833">DOI</a>   </li>
-  <li>De Florio, M., Schiassi, E., D’Ambrosio, A., Mortari, D. and Furfaro, R., 2021. Theory of Functional Connections Applied to Linear ODEs Subject to Integral Constraints and Linear Ordinary Integro-Differential Equations. <em>Mathematics</em>, 26(3), p.65. <a href="https://doi.org/10.3390/mca26030065">DOI</a>  </li>
-  <li>Schiassi, E., De Florio, M., D’Ambrosio, A., Mortari, D. and Furfaro, R., 2021. Physics-Informed Neural Networks and Functional Interpolation for Data-Driven Parameters Discovery of Epidemiological Compartmental Models. <em>Mathematics</em>, 9(17), p.2069. <a href="https://doi.org/10.3390/math9172069">DOI</a>   </li>
-  <li>E. Schiassi, R. Furfaro, C. Leake, M. De Florio, H. Johnston, D. Mortari, Extreme Theory of Functional Connections: A Fast Physics-Informed Neural Network Method for Solving Ordinary and Partial Differential Equations. <em>Neurocomputing</em> (2021). <a href="https://doi.org/10.1016/j.neucom.2021.06.015">DOI</a>   </li>
-  <li>De Florio, M., Schiassi, E., Ganapol, B.D., Furfaro, R., Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar–Gross–Krook approximation <em>Physics of Fluids</em> 33, 047110 (2021). <a href="https://doi.org/10.1063/5.0046181">DOI</a>   </li>
-  <li>De Florio, M., Schiassi, E., Furfaro, R., Ganapol, B.D., Mostacci, D. (2020). Solutions of Chandrasekhar’s Basic Problem in Radiative Transfer via Theory of Functional Connections. <em>Journal of Quantitative Spectroscopy & Radiative Transfer</em>. p.107384. <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">DOI</a>   </li>
+  <li>De Florio, M., Schiassi, E., & Furfaro, R. (2022). Physics-informed neural networks and functional interpolation for stiff chemical kinetics. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>, 32(6), 063107. <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
+  <li>De Florio, M., Schiassi, E., Ganapol, B. D., & Furfaro, R. (2022). Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. <em>Zeitschrift für angewandte Mathematik und Physik</em>, 73(3), 1-18. <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>
+  <li>Schiassi, E., De Florio, M., Ganapol, B. D., Picca, P., & Furfaro, R. (2022). Physics-informed neural networks for the point kinetics equations for nuclear reactor dynamics. <em>Annals of Nuclear Energy</em>, 167, 108833. <a href="https://doi.org/10.1016/j.anucene.2021.108833">DOI</a>   </li>
+  <li>De Florio, M., Schiassi, E., D’Ambrosio, A., Mortari, D., & Furfaro, R. (2021). Theory of functional connections applied to linear odes subject to integral constraints and linear ordinary integro-differential equations. <em>Mathematical and Computational Applications</em>, 26(3), 65. <a href="https://doi.org/10.3390/mca26030065">DOI</a>  </li>
+  <li>Schiassi, E., De Florio, M., D’ambrosio, A., Mortari, D., & Furfaro, R. (2021). Physics-informed neural networks and functional interpolation for data-driven parameters discovery of epidemiological compartmental models. <em>Mathematics</em>, 9(17), 2069. <a href="https://doi.org/10.3390/math9172069">DOI</a>   </li>
+  <li>Schiassi, E., Furfaro, R., Leake, C., De Florio, M., Johnston, H., & Mortari, D. (2021). Extreme theory of functional connections: A fast physics-informed neural network method for solving ordinary and partial differential equations. <em>Neurocomputing</em>, 457, 334-356. <a href="https://doi.org/10.1016/j.neucom.2021.06.015">DOI</a>   </li>
+  <li>De Florio, M., Schiassi, E., Ganapol, B. D., & Furfaro, R. (2021). Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar–Gross–Krook approximation. <em>Physics of Fluids</em>, 33(4), 047110. <a href="https://doi.org/10.1063/5.0046181">DOI</a>   </li>
+  <li>De Florio, M., Schiassi, E., Furfaro, R., Ganapol, B. D., & Mostacci, D. (2021). Solutions of Chandrasekhar’s basic problem in radiative transfer via theory of functional connections. <em>Journal of Quantitative Spectroscopy and Radiative Transfer</em>, 259, 107384. <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">DOI</a>   </li>
 </ul>
 </font>
 
@@ -32,8 +32,8 @@ Preprints
 
 <font size="3">
 <ul>
-  <li>Schiassi, E., D'Ambrosio, A., De Florio, M., Furfaro, R., Curti, F. (2020). Physics-Informed Extreme Theory of Functional Connections Applied to Data-Driven Parameters Discovery of Epidemiological Compartmental Models. <a href="https://arxiv.org/abs/2008.05554">arXiv</a>  </li>
-  <li>Schiassi, E., Leake, C., De Florio, M., Johnston, H., Furfaro, R., & Mortari, D. (2020). Extreme Theory of Functional Connections: A Physics-Informed Neural Network Method for Solving Parametric Differential Equations. <a href="https://arxiv.org/abs/2005.10632">arXiv</a>  </li>
+  <li>Schiassi, E., D'Ambrosio, A., De Florio, M., Furfaro, R., & Curti, F. (2020). Physics-informed extreme theory of functional connections applied to data-driven parameters discovery of epidemiological compartmental models. <em>arXiv preprint arXiv:2008.05554</em>. <a href="https://arxiv.org/abs/2008.05554">arXiv</a>  </li>
+  <li>Schiassi, E., Leake, C., De Florio, M., Johnston, H., Furfaro, R., & Mortari, D. (2020). Extreme theory of functional connections: A physics-informed neural network method for solving parametric differential equations. <em>arXiv preprint arXiv:2005.10632</em>. <a href="https://arxiv.org/abs/2005.10632">arXiv</a>  </li>
 </ul>
 </font>
 
@@ -43,8 +43,8 @@ Conference Proceedings
 
 <font size="3">
 <ul>
-  <li>Schiassi, E., D'Ambrosio, A., Johnston, H., De Florio, M., Furfaro, R., Curti, F., Mortari, D., Physics-Informed Extreme Theory of Functional Connections Applied to Optimal Orbit Transfer. AAS 20-524, AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, August 9-13, 2020. <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
-  <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., De Florio, M., Schiassi, E., Chatelain, J., Lejoly, C. and Le Corre, L., 2019, September. Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In EPSC-DPS Joint Meeting 2019 (Vol. 2019, pp. EPSC-DPS2019). </li>
+  <li>Schiassi, E., D’ambrosio, A., Johnston, H., De Florio, M., Drozd, K., Furfaro, R., ... & Mortari, D. (2020, August). Physics-informed extreme theory of functional connections applied to optimal orbit transfer. In <em>Proceedings of the AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, USA</em> (pp. 9-13). <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
+  <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., ... & Bauer, J. (2019, September). Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In <em>EPSC-DPS Joint Meeting 2019</em> (Vol. 2019, pp. EPSC-DPS2019). </li>
 </ul>
 </font>
 </div>

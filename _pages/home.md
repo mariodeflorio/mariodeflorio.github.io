@@ -1,7 +1,9 @@
 ---
-title: "Home"
-layout: single
+title:  "Home"
+layout: home
 permalink: /
+author_profile: true
+comments: true
 feature_row:
   - image_path: /assets/images/research.jpg
     alt: "research"

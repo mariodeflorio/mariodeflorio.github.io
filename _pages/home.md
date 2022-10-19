@@ -28,9 +28,9 @@ feature_row3:
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.
 </font>
 
-<div><p><br></p><p><br></p></div>
+<p><br></p>
 
-
+<hr>
 
 {% include feature_row id="feature_row2" type="left" %}
 

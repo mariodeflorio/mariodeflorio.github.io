@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: single
-permalink: /
+permalink: "https://mariodeflorio.github.io/"
 feature_row:
   - image_path: /assets/images/research.jpg
     alt: "research"

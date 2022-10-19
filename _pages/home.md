@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 comments: true
 feature_row2:
-  - image_path: /assets/images/research.jpg
+  - image_path: /assets/images/research1.jpg
     alt: "research"
     title: "Research and Projects"
     excerpt: 'Feel free to explore my journal papers, preprints, and conference proceedings.'
@@ -27,6 +27,8 @@ feature_row3:
 <p><br></p>
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.
 </font>
+
+<div><p><br></p><p><br></p></div>
 
 
 

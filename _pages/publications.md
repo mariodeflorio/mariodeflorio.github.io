@@ -1,9 +1,13 @@
 ---
 title: "Publications"
-layout: archive
+layout: single
 permalink: /publications/
 author_profile: true
 comments: true
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/images/publications.jpg
 ---
 <div style="text-align: justify;"> 
 <h2>

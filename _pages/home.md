@@ -28,7 +28,6 @@ feature_row3:
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://github.com/mariodeflorio/mariodeflorio.github.io/raw/master/_files/CV_DeFlorio.pdf">CV</a>.
 </font>
 
-<p><br></p>
 
 <hr>
 

@@ -11,7 +11,7 @@ tags:
 
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin.JPG)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin.jpg)
 
 <h2>
 Boltzmann Neural Networks and Theory of Functional Connections for Rarefied-Gas Dynamics problems in the BGK approximation

@@ -5,10 +5,10 @@ permalink: /
 author_profile: true
 comments: true
 feature_row2:
-  - image_path: /assets/images/research.jpg
+  - image_path: /assets/images/research_crop.jpg
     alt: "research"
     title: "Research and Projects"
-    excerpt: 'Feel free to explore my journal papers, preprints, and conference proceedings.'
+    excerpt: 'Here you can find my research works and projects I am involved in.'
     url: "/research/"
     btn_label: "Read More"
     btn_class: "btn--primary"

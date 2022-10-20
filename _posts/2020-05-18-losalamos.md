@@ -1,5 +1,7 @@
 ---
 title: "Arizona-Los Alamos Days 2020"
+permalink: /talks/losalamos/
+layout: single
 categories:
   - Physics-Informed Neural Networks
 tags:

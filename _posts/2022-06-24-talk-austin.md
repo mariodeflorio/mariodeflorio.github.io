@@ -7,6 +7,15 @@ categories:
 tags:
   - Rarefied Gas Dynamics
   - Physics-Informed Neural Networks
+gallery:
+  - url: /assets/images/austin2.jfif
+    image_path: /assets/images/austin2.jfif
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/austin.jpg
+    image_path: /assets/images/austin.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 
@@ -25,4 +34,8 @@ Boltzmann Neural Networks and Theory of Functional Connections for Rarefied-Gas 
 A new accurate approach to solving a class of problems in the theory of rarefied–gas dynamics using a Physics-Informed Neural Networks framework is presented. The solutions of the problems are approximated by the constrained expressions introduced by the Theory of Functional Connections. The constrained expressions are made by a sum of a free function and a functional that always analytically satisfies the equation constraints. The free function used in this work is a Chebyshev neural network trained via the extreme learning machine algorithm. The method is designed to accurately and efficiently solve the linear one-point boundary value problem that arises from the Bhatnagar–Gross–Krook model of the Poiseuille, Couette, and Thermal Creep flows between two parallel plates for a wide range of Knudsen numbers. The accuracy of our results is validated via the comparison with the published benchmarks.
 </font>
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin1.jpeg)
+```liquid
+{% raw %}{% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}{% endraw %}
+```
+
+{% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}

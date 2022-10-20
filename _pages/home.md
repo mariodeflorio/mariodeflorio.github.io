@@ -4,7 +4,7 @@ layout: home
 permalink: /
 author_profile: true
 comments: true
-feature_row2:
+feature_row1:
   - image_path: /assets/images/research_crop.jpg
     alt: "research"
     title: "Research and Projects"
@@ -12,7 +12,7 @@ feature_row2:
     url: "/research/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
+feature_row2:
   - image_path: /assets/images/publications.jpg
     alt: "publications"
     title: "Publications"
@@ -20,7 +20,7 @@ feature_row3:
     url: "/publications/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
+feature_row3:
   - image_path: /assets/images/talks.jpg
     alt: "research"
     title: "Conference Talks"
@@ -39,10 +39,10 @@ feature_row2:
 
 <hr>
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row1" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row2" type="right" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" type="left" %}
 
 

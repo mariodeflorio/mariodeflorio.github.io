@@ -1,5 +1,7 @@
 ---
 title: "32nd International Symposium on Rarefied Gas Dynamics (RGD32)"
+permalink: /talks/korea/
+layout: single
 categories:
   - Physics-Informed Neural Networks
 tags:
@@ -9,7 +11,7 @@ tags:
 
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/talk-korea.png)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/korea.png)
 
 <h2>
 Physics-informed Neural Network and Functional Interpolation for Rarefied-Gas Dynamics in the BGK Approximation

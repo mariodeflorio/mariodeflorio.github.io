@@ -1,5 +1,7 @@
 ---
 title: "19th U.S. National Congress on Theoretical and Applied Mechanics (USNC/TAM 2022)"
+permalink: /talks/austin/
+layout: single
 categories:
   - Physics-Informed Neural Networks
 tags:

@@ -23,9 +23,29 @@ feature_row2:
     url: "/talks/losalamos/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/austin.png
+    alt: "talks"
+    title: "19th U.S. National Congress on Theoretical and Applied Mechanics"
+    excerpt: 'USNC/TAM 2022'
+    url: "/talks/austin/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/korea.png
+    alt: "talks"
+    title: "32nd International Symposium on Rarefied Gas Dynamics"
+    excerpt: 'RGD32'
+    url: "/talks/korea/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="right" %}
 
 
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="feature_row1" type="right" %}
+
+
+
+

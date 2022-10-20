@@ -20,6 +20,14 @@ feature_row3:
     url: "/publications/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/talks.jpg
+    alt: "research"
+    title: "Conference Talks"
+    excerpt: 'The list of the conferences where I presented some of my works.'
+    url: "/talks/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 <font size="3">
@@ -34,5 +42,7 @@ feature_row3:
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row2" type="left" %}
 
 

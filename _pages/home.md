@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 comments: true
 feature_row2:
-  - image_path: /assets/images/research1.jpg
+  - image_path: /assets/images/research.jpg
     alt: "research"
     title: "Research and Projects"
     excerpt: 'Feel free to explore my journal papers, preprints, and conference proceedings.'

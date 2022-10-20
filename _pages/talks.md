@@ -32,7 +32,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/korea.png
+  - image_path: /assets/images/korea_crop.png
     alt: "talks"
     title: "32nd International Symposium on Rarefied Gas Dynamics"
     excerpt: 'RGD32'

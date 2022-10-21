@@ -6,7 +6,7 @@ author_profile: true
 comments: true
 gallery:
   - url: /assets/images/austin2.jfif
-    image_path: /assets/images/austin2.jfif
+    image_path: /assets/images/austin_presentation.jpg
     title: "Image 1 title caption"
   - url: /assets/images/austin.jpg
     image_path: /assets/images/austin1.jpeg

@@ -4,11 +4,6 @@ permalink: /talks/austin/
 layout: single
 author_profile: true
 comments: true
-categories:
-  - Physics-Informed Neural Networks
-tags:
-  - Rarefied Gas Dynamics
-  - Physics-Informed Neural Networks
 gallery:
   - url: /assets/images/austin2.jfif
     image_path: /assets/images/austin2.jfif
@@ -16,11 +11,16 @@ gallery:
   - url: /assets/images/austin.jpg
     image_path: /assets/images/austin.jpg
     title: "Image 2 title caption"
+categories:
+  - Physics-Informed Neural Networks
+tags:
+  - Rarefied Gas Dynamics
+  - Physics-Informed Neural Networks
 ---
 
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin.jpg)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin2.jfif)
 
 <h2>
 Boltzmann Neural Networks and Theory of Functional Connections for Rarefied-Gas Dynamics problems in the BGK approximation

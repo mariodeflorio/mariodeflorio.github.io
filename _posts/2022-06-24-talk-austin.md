@@ -7,10 +7,10 @@ comments: true
 gallery:
   - url: /assets/images/austin_presentation.jpg
     image_path: /assets/images/austin_presentation.jpg
-    title: "Image 1 title caption"
+    title: "Discussing"
   - url: /assets/images/austin_group.jpg
     image_path: /assets/images/austin_group.jpg
-    title: "Image 2 title caption"
+    title: "From left to right. Enrico Schiassi, Andrea D'Ambrosio, Kris Drozd, Mario De Florio"
 categories:
   - Physics-Informed Neural Networks
 tags:

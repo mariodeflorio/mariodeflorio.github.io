@@ -9,7 +9,7 @@ gallery:
     image_path: /assets/images/austin2.jfif
     title: "Image 1 title caption"
   - url: /assets/images/austin.jpg
-    image_path: /assets/images/austin.jpg
+    image_path: /assets/images/austin1.jpeg
     title: "Image 2 title caption"
 categories:
   - Physics-Informed Neural Networks
@@ -20,7 +20,7 @@ tags:
 
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin2.jfif)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/austin.jpg)
 
 <h2>
 Boltzmann Neural Networks and Theory of Functional Connections for Rarefied-Gas Dynamics problems in the BGK approximation

@@ -24,7 +24,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/austin_crop.JPG
+  - image_path: /assets/images/austin_logo.JPG
     alt: "talks"
     title: "19th U.S. National Congress on Theoretical and Applied Mechanics"
     excerpt: '(USNC/TAM 2022) June 19-24, 2022, Austin, Texas'

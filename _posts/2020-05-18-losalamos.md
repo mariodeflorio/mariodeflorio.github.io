@@ -33,8 +33,9 @@ Accurate Solutions of the Radiative Transfer Problem via Theory of Connections
 
 <body>
     <h1>PDF Example with iframe</h1>
-    <iframe src="/assets/images/Mario_LosAlamos_poster.pdf" width="100%" height="500px">
+    <iframe src="/assets/images/Mario_LosAlamos_poster.pdf#toolbar=0" width="100%" height="500px">
     </iframe>
 </body>
 
+<embed src="/assets/images/Mario_LosAlamos_poster.pdf" width="100%" height="500px" />
 

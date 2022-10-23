@@ -10,12 +10,21 @@ header:
     overlay_image: /assets/images/research.jpg
 feature_row1:
   - image_path: /assets/images/xtfc.jpg
-    alt: "x-tfx"
+    alt: "x-tfc"
     title: "Extreme Theory of Functional Connections"
     excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/xtfc/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/xtfc.jpg
+    alt: ""
+    title: "Radiative Transer"
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
+    url: "/research/radiative/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 
 ---
 
@@ -26,3 +35,4 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
+{% include feature_row id="feature_row2" type="left" %}

@@ -1,5 +1,5 @@
 ---
-title:  "Extreme Theory of Functional Connections"
+title:  "Research"
 layout: single
 permalink: /research/xtfc/
 author_profile: true

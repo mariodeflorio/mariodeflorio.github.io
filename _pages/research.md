@@ -45,12 +45,5 @@ feature_row4:
  <font size="3">
 <div style="text-align: justify;"> My main research interest is the development of Physics-Informed Machine Learning frameworks and their application to several fields, such as Radiative Transfer, Rarefied-gas Dynamics, Nuclear Reactor Dynamics, Chemical Kinetics, Epidemiology, and Systems Biology. Below you can find some of my works. </div> </font>
 
-{% include feature_row id="feature_row1" type="left" %}
 
-{% include feature_row id="feature_row2" type="right" %}
-
-
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row4" type="right" %}
 

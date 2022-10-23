@@ -16,6 +16,30 @@ feature_row1:
     url: "/research/xtfc/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/xtfc.jpg
+    alt: "radiative transfer"
+    title: "Radiative Transfer"
+    excerpt: 'Solutions of Chandrasekhar's basic problem in radiative transfer.'
+    url: "/research/radiative_transfer/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/xtfc.jpg
+    alt: "rarefied gas"
+    title: "Rarefied-Gas Dynamics"
+    excerpt: 'Physics-Informed Neural Networks for Rarefied-Gas Dynamics: Poiseuille, Couette, and Thermal Creep flows in the BGK approximation'
+    url: "/research/rarefied_gas/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/xtfc.jpg
+    alt: "stiff chemical"
+    title: "Stiff Chemical Kinetics"
+    excerpt: 'Physics-Nnformed Neural Networks and Functional Interpolation for Stiff Chemical Kinetics'
+    url: "/research/stiff_chemical_kinetics/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="feature_row1" type="left" %}

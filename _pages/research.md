@@ -25,7 +25,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/xtfc.jpg
+  - image_path: /assets/images/rarefied.jpg
     alt: "rarefied gas"
     title: "Rarefied-Gas Dynamics"
     excerpt: 'Physics-Informed Neural Networks for Rarefied-Gas Dynamics: Poiseuille, Couette, and Thermal Creep flows in the BGK approximation'

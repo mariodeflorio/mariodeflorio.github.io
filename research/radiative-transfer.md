@@ -1,7 +1,7 @@
 ---
 title:  "Research"
 layout: single
-permalink: /research/radiative/
+permalink: /research/radiative-transfer/
 author_profile: true
 comments: true
 header:

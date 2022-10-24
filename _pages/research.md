@@ -21,7 +21,7 @@ feature_row2:
     alt: ""
     title: "Radiative Transer"
     excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
-    url: "/research/radiative/"
+    url: "/research/radiative-transfer/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
@@ -30,6 +30,14 @@ feature_row3:
     title: "Rarefied-Gas Dynamics"
     excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/rarefied-gas/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/xtfc.jpg
+    alt: ""
+    title: "Stiff Chemical Kinetics"
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
+    url: "/research/stiff-chemical-kinetics/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -44,4 +52,6 @@ feature_row3:
 
 {% include feature_row id="feature_row2" type="right" %}
 
-{% include feature_row id="feature_row3" type="light" %}
+{% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="right" %}

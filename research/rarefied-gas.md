@@ -1,7 +1,7 @@
 ---
 title:  "Research"
 layout: single
-permalink: /research/rarefied_gas/
+permalink: /research/rarefied-gas/
 author_profile: true
 comments: true
 header:

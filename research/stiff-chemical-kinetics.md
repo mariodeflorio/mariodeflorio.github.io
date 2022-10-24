@@ -1,5 +1,5 @@
 ---
-title:  "Research"
+title:  "Stiff Chemical Kinetics"
 layout: single
 permalink: /research/stiff-chemical-kinetics/
 author_profile: true

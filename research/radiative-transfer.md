@@ -1,5 +1,5 @@
 ---
-title:  "Research"
+title:  "Radiative Transfer"
 layout: single
 permalink: /research/radiative-transfer/
 author_profile: true
@@ -11,6 +11,14 @@ header:
 categories:
   - Physics-Informed Neural Networks
 ---
+
+<h1>
+Physics-informed neural networks for rarefied-gas dynamics
+</h2>
+
+<h2>
+Poiseuille, Couette, and Thermal Creep Flows in the BGK approximation
+</h2>
 
 <font size="2">
 </font>

@@ -19,7 +19,7 @@ feature_row1:
 feature_row2:
   - image_path: /assets/images/radiative.png
     alt: ""
-    title: "Radiative Transer"
+    title: "Radiative Transfer"
     excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/radiative-transfer/"
     btn_label: "Read More"

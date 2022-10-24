@@ -1,5 +1,5 @@
 ---
-title:  "Research"
+title:  "Rarefied-Gas Dynamics"
 layout: single
 permalink: /research/rarefied-gas/
 author_profile: true

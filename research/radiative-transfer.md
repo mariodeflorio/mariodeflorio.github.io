@@ -10,6 +10,10 @@ header:
     overlay_image: /assets/images/radiative.png
 categories:
   - Physics-Informed Neural Networks
+tags:
+  - Radiative Transfer
+  - Transport Theory
+  - Physics-Informed Neural Networks
 ---
 
 <h1>

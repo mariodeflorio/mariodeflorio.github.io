@@ -10,6 +10,11 @@ header:
     overlay_image: /assets/images/xtfc.png
 categories:
   - Physics-Informed Neural Networks
+tags:
+  - Theory of Functional Connections
+  - Functional Interpolation
+  - Extreme Learning Machine
+  - Physics-Informed Neural Networks
 ---
 
 <font size="2">

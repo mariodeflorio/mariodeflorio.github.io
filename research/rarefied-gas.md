@@ -10,6 +10,10 @@ header:
     overlay_image: /assets/images/rarefied.png
 categories:
   - Physics-Informed Neural Networks
+tags:
+  - Rarefied-Gas Dynamics
+  - Transport Theory
+  - Physics-Informed Neural Networks
 ---
 
 <font size="2">

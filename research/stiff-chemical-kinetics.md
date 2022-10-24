@@ -10,6 +10,11 @@ header:
     overlay_image: /assets/images/chemical.png
 categories:
   - Physics-Informed Neural Networks
+tags:
+  - Stiff Chemical Kinetics
+  - Domain Decomposition
+  - Functional Interpolation
+  - Physics-Informed Neural Networks
 ---
 
 <font size="2">

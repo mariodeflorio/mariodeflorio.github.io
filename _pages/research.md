@@ -9,7 +9,7 @@ header:
     overlay_filter: "0.5"
     overlay_image: /assets/images/research.jpg
 feature_row1:
-  - image_path: /assets/images/xtfc.jpg
+  - image_path: /assets/images/xtfc.png
     alt: "x-tfc"
     title: "Extreme Theory of Functional Connections"
     excerpt: 'A physics-informed neural network method for solving parametric differential equations.'

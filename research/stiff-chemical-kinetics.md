@@ -1,7 +1,7 @@
 ---
 title:  "Research"
 layout: single
-permalink: /research/stiff_chemical_kinetics/
+permalink: /research/stiff-chemical-kinetics/
 author_profile: true
 comments: true
 header:

@@ -24,7 +24,14 @@ feature_row2:
     url: "/research/radiative/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
+feature_row3:
+  - image_path: /assets/images/xtfc.jpg
+    alt: ""
+    title: "Rarefied-Gas Dynamics"
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
+    url: "/research/rarefied-gas/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
 
@@ -35,4 +42,4 @@ feature_row2:
 
 {% include feature_row id="feature_row1" type="left" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="right" %}

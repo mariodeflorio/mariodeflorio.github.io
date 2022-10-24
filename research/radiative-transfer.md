@@ -13,16 +13,11 @@ categories:
 tags:
   - Radiative Transfer
   - Transport Theory
-  - Physics-Informed Neural Networks
+  - Theory of Functional Connections
 ---
 
-<h1>
-Physics-informed neural networks for rarefied-gas dynamics
-</h2>
-
-<h2>
-Poiseuille, Couette, and Thermal Creep Flows in the BGK approximation
-</h2>
+<h1 style="text-align: center;">Solutions of Chandrasekhar's Basic Problem in Radiative Transfer</h1>
+<h2 style="text-align: center;">via Theory of Functional Connections&nbsp;</h2>
 
 <font size="2">
 </font>

@@ -17,5 +17,8 @@ tags:
   - Physics-Informed Neural Networks
 ---
 
+<h1 style="text-align: center;">Physics-Informed Neural Networks and Functional Interpolation for Stiff Chemical Kinetics</h1>
+<h2 style="text-align: center;">ROBER, Chemical Akzo Nobel, Belousov–Zhabotinsky, and POLLU problems &nbsp;</h2>
+
 <font size="2">
 </font>

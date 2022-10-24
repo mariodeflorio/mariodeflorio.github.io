@@ -16,5 +16,8 @@ tags:
   - Physics-Informed Neural Networks
 ---
 
+<h1 style="text-align: center;">Physics-Informed Neural Networks for Rarefied-Gas Dynamics</h1>
+<h2 style="text-align: center;">Poiseuille, Couette, and Thermal Creep Flows in the BGK approximation&nbsp;</h2>
+
 <font size="2">
 </font>

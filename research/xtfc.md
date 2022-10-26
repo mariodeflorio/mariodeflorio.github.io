@@ -17,7 +17,7 @@ tags:
   - Physics-Informed Neural Networks
 ---
 
-<h1 style="text-align: center;">Extreme Theory of Functional Connectios</h1>
+<h1 style="text-align: center;">Extreme Theory of Functional Connections</h1>
 <h2 style="text-align: center;">A physics-informed neural network method for solving parametric differential equations &nbsp;</h2>
 
 <font size="2">

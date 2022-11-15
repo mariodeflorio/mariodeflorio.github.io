@@ -18,25 +18,25 @@ feature_row1:
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/radiative.png
-    alt: "radiative transfer"
+    alt: ""
     title: "Radiative Transfer"
-    excerpt: 'Solutions of Chandrasekhar's basic problem in radiative transfer via theory of functional connections.'
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/radiative-transfer/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/rarefied.png
-    alt: "rgd"
+    alt: ""
     title: "Rarefied-Gas Dynamics"
-    excerpt: 'Physics-informed neural networks for rarefied-gas dynamics: Poiseuille, Couette, and thermal creep flows in the BGK approximation.'
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/rarefied-gas/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/images/chemical.png
-    alt: "stiff chemical kinetics"
+    alt: ""
     title: "Stiff Chemical Kinetics"
-    excerpt: 'Physics-informed neural networks for stiff chemical kinetics.'
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
     url: "/research/stiff-chemical-kinetics/"
     btn_label: "Read More"
     btn_class: "btn--primary"

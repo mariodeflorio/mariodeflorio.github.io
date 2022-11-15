@@ -18,7 +18,7 @@ feature_row1:
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/radiative.png
-    alt: ""
+    alt: "radiative transfer"
     title: "Radiative Transfer"
     excerpt: 'Solutions of Chandrasekhar's basic problem in radiative transfer via theory of functional connections.'
     url: "/research/radiative-transfer/"
@@ -26,7 +26,7 @@ feature_row2:
     btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/rarefied.png
-    alt: ""
+    alt: "rgd"
     title: "Rarefied-Gas Dynamics"
     excerpt: 'Physics-informed neural networks for rarefied-gas dynamics: Poiseuille, Couette, and thermal creep flows in the BGK approximation.'
     url: "/research/rarefied-gas/"
@@ -34,7 +34,7 @@ feature_row3:
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/images/chemical.png
-    alt: ""
+    alt: "stiff chemical kinetics"
     title: "Stiff Chemical Kinetics"
     excerpt: 'Physics-informed neural networks for stiff chemical kinetics.'
     url: "/research/stiff-chemical-kinetics/"

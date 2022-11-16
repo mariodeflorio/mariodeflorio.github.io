@@ -10,10 +10,15 @@ header:
     overlay_image: /assets/images/xtfc.png
 ---
 
-<h1 style="text-align: center;">Extreme Theory of Functional Connections</h1>
-<h2 style="text-align: center;">A physics-informed neural network method for solving parametric differential equations &nbsp;</h2>
+<h1>Extreme Theory of Functional Connections</h1>
 
-<font size="2">
-</font>
+<font size="2">A physics-informed neural network method for solving parametric differential equations </font>
 
+<font size="1">
 We present a novel, accurate, fast, and robust physics-informed neural network method for solving problems involving differential equations (DEs), called <i>Extreme Theory of Functional Connections</i>, or X-TFC. The proposed method is a synergy of two recently developed frameworks for solving problems involving DEs: the <i>Theory of Functional Connections</i> TFC, and the <i>Physics-Informed Neural Networks</i> PINN. Here, the latent solution of the DEs is approximated by a TFC constrained expression that employs a Neural Network (NN) as the free-function. The TFC approximated solution form always analytically satisfies the constraints of the DE, while maintaining a NN with unconstrained parameters. X-TFC uses a single-layer NN trained via the <i>Extreme Learning Machine</i> (ELM) algorithm. This choice is based on the approximating properties of the ELM algorithm that reduces the training of the network to a simple least-squares, because the only trainable parameters are the output weights. The proposed methodology was tested over a wide range of problems including the approximation of solutions to linear and nonlinear ordinary DEs (ODEs), systems of ODEs, and partial DEs (PDEs). The results show that, for most of the problems considered, X-TFC achieves high accuracy with low computational time, even for large scale PDEs, without suffering the curse of dimensionality. 
+
+
+
+
+
+</font>

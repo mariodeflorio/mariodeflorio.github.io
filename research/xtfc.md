@@ -26,6 +26,6 @@ header:
 <font size="3">
 <div style="text-align: justify;"> Differential Equations are a powerful tool used for the mathematical modelling of various problems arising in scientific fields such as physics, engineering, finance, biology, chemistry, and oceanography, to name  few. We can express DEs, in their most general implicit form, as,
 
-
+\\[   y_0      ]\\
 
 </font>

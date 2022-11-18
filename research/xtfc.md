@@ -43,7 +43,7 @@ where \(L\) is the number of hidden neurons, \({w}_j\) is the input weights vect
 <br>
 The Figure below shows the schematic of the physics-informed X-TFC framework to solve forward problems involving parametric DEs.
 
-![Unsplash image 1]({{ site.url }}{{ site.baseurl }}/assets/images/xtfc_graphical.jpg)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/xtfc_graphical.jpg" alt="" class="full">
 
 
 

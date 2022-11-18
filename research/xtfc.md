@@ -35,7 +35,7 @@ $$
 
 where \(x = [t,x]^T \in \Omega \subseteq \mathbb{R}^{n+1}\) with \(t \geq 0\), \(\Theta = [\gamma, \lambda]^T \in \mathbb{P} \subseteq \mathbb{R}^{m+1}\),\(A (x; \Theta)\) analytically satisfies the constraints, and \(B(x, g (x); \Theta)\) projects the free-function \(g(x)\), which is a real valued function, onto the space of functions that vanish at the constraints. According to the X-TFC method, the free-function, \(g(x)\), is chosen to be a single layer feed forward NN, in particular, an ELM, that is
 $$ g(x) = \sum_{j=1}^{L} \beta_j\sigma \left(w_j^Tx + b_j \right) = [ \sigma_1,...,\sigma_L ] \, \beta = \sigma^T \beta $$
-where \(L\) is the number of hidden neurons, \({w}_j\) \) is the input weights vector connecting the \(j^{th}\) hidden neuron and the input nodes, 
+where \(L\) is the number of hidden neurons, \({w}_j\) is the input weights vector connecting the \(j^{th}\) hidden neuron and the input nodes, 
 \(\beta_j \) is the \(j^{th}\) output weight connecting the \(j^{th}\) hidden neuron and the output node, \(b_j\) is the threshold (aka bias) of the \(j^{th}\) hidden neuron, and \(\sigma(\cdot)\) are activation functions.
 
 

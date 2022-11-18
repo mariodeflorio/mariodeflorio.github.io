@@ -29,6 +29,16 @@ $$ \gamma f_t + \mathcal{N}\left[f;\lambda\right] = 0 $$
 subject to certain constraints, where \( f(t,x)  \) represents the unknown solution, \( \mathcal{N}\left[ f ; \lambda \right] \) is a linear or nonlinear operator acting on \(f \) and parameterized by \( \lambda \), and the subscript \( t \) refers to the partial derivative of \(f \) with respect to \(t \).
 <br>
 The first step in our general physics-informed framework is to approximate the latent solution \(f \) with a constrained expression that analytically satisfies the constraints as follows,
+$$
+f(x; \Theta ) = f_{CE}(x, g(x); \Theta) = A(x; \Theta) + B(x, g(x); \Theta)
+$$
+
+where \(x = [t,x]^T \in \Omega \subseteq \mathbb{R}^{n+1}\) with \(t \geq 0\), \(\Theta = [\gamma, \lambda]^T \in \mathbb{P} \subseteq \mathbb{R}^{m+1}\),\(A (x; \Theta)\) analytically satisfies the constraints, and \(B(x, g (x); \Theta)\) projects the free-function \(g(x)\), which is a real valued function, onto the space of functions that vanish at the constraints. According to the X-TFC method, the free-function, \(g(x)\), is chosen to be a single layer feed forward NN, in particular, an ELM, that is
+$$ g(x) = \sum_{j=1}^{L} \beta_j\sigma \left(w_j^Tx + b_j \right) = [ \sigma_1,...,\sigma_L ] \, \beta = \sigma^T \beta $$
+
+
+
+
 
 
 

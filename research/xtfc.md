@@ -42,7 +42,7 @@ where \(L\) is the number of hidden neurons, \({w}_j\) is the input weights vect
 \(\beta_j \) is the \(j^{th}\) output weight connecting the \(j^{th}\) hidden neuron and the output node, \(b_j\) is the threshold (aka bias) of the \(j^{th}\) hidden neuron, and \(\sigma(\cdot)\) are activation functions. Both weights and bias are previously randomly selected, according to the ELM algorithm.
 <br>
 The Figure below shows the schematic of the physics-informed X-TFC framework to solve forward problems involving parametric DEs.
-
+<br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/xtfc_graphical.jpg" alt="" class="full">
 
 

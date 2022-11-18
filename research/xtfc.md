@@ -24,4 +24,15 @@ header:
 <font size="6">X-TFC Solutions of Differential Equations</font>
 <p><br></p>
 <font size="3">
-<div style="text-align: justify;"> Differential Equations are a powerful tool used for the mathematical modelling of various problems arising in scientific fields such as physics, engineering, finance, biology, chemistry, and oceanography, to name  few. We can express DEs, in their most general implicit form, as, $$ \gamma f_t + \mathcal{N}\left[f;\lambda\right] +\varepsilon -\mathcal{U} = 0 $$ 
+<div style="text-align: justify;"> Differential Equations are a powerful tool used for the mathematical modelling of various problems arising in scientific fields such as physics, engineering, finance, biology, chemistry, and oceanography, to name  few. We can express DEs, in their most general implicit form, as $$ \gamma f_t + \mathcal{N}\left[f;\lambda\right] +\varepsilon -\mathcal{U} = 0 $$ subject to certain constraints, where \( f(t,x)  \) represents the unknown solution, \( \mathcal{N}\left[ \cdot ; \lambda \right] \) is a linear or nonlinear operator acting on \(f \) and parameterized by \( \lambda \), and the subscript \( t \) refers to the partial derivative of \(f \) with respect to \(t \) .
+
+
+
+
+
+
+In general, even if it is not explicitly reported in the notation,
+$f$ is a function of $t$ and $\bm{x}$, and it is parameterized by $\gamma$ and $\bm{\lambda}$, that in general can be $t$ and $\bm{x}$ dependent as well.
+},
+$\mathcal{N}\left[ \cdot ; \bm{\lambda} \right]$ is a linear or nonlinear operator acting on $f$ and parameterized by $\bm{\lambda}$,
+the subscript $t$ refers to the partial derivative of $f$ with respect to $t$,

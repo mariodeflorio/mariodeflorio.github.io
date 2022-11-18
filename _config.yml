@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
   bio              : "Ph.D. Candidate in Systems & Industrial Engineering, The University of Arizona. Research on Physics-Informed Machine Learning"
   location         : # "Tucson, AZ"
-  email            : # "mariodf@arizona.edu"
+  email            : # "mario.deflorio.93@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mariodf@arizona.edu"
+      url: "mailto:mario.deflorio.93@gmail.com"
     - label: "SSEL"
       icon: "fas fa-fw fa-link"
       url: "https://ssel.arizona.edu/person/mario-de-florio"

@@ -31,8 +31,3 @@ header:
 
 
 
-In general, even if it is not explicitly reported in the notation,
-$f$ is a function of $t$ and $\bm{x}$, and it is parameterized by $\gamma$ and $\bm{\lambda}$, that in general can be $t$ and $\bm{x}$ dependent as well.
-},
-$\mathcal{N}\left[ \cdot ; \bm{\lambda} \right]$ is a linear or nonlinear operator acting on $f$ and parameterized by $\bm{\lambda}$,
-the subscript $t$ refers to the partial derivative of $f$ with respect to $t$,

@@ -58,6 +58,22 @@ $$
 $$
 \left( 2\pi t^2 \cos(2\pi z) + (t-1) txy + xy^{3/2} \right) + 2xy(z-1) + 2 \sin(2 \pi z)
 $$
+where \(x,y,z,t \in [0,1]\), and subject to the following constraints
+$$
+f(0,y,z,t) = t^2 \sin(2\pi z)
+$$
+$$
+f(x,0,z,t) = t^2 \sin(2\pi z)
+$$
+$$
+f(x,y,1,t) = \sin(x^2y) + x \sqrt{y}
+$$
+$$
+f(x,y,z,0) = \sin(x^2y) + x \sqrt{y}z
+$$
+$$
+f(x,y,z,1) = \sin(x^2y) + x \sqrt{y}z + \sin(2\pi z)
+$$
 
 
 

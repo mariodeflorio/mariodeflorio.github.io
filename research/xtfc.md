@@ -53,7 +53,8 @@ The figure below shows the schematic of the physics-informed X-TFC framework to 
 The numerical example proposed here is a non-linear 3D and time-dependent PDE provided with analytical solution \(f(x,y,z,t)\) . The PDE is in the form
 
 $$
-f_x f_y f_z + f_{tt} = \left((t-1)tx(z-1)+x^2\cos(x^2y) + \frac{3}{2}x\sqrt(y)z\right) \left((t-1)ty(z-1)+2xy \cos(x^2y) + y^{3/2} z\right)
+f_x f_y f_z + f_{tt} = \left((t-1)tx(z-1)+x^2\cos(x^2y) + \frac{3}{2}x\sqrt(y)z\right) \left((t-1)ty(z-1)+2xy \cos(x^2y) + y^{3/2} z\right) \\
+x^2
 $$
 
 

@@ -47,10 +47,48 @@ The figure below shows the schematic of the physics-informed X-TFC framework to 
 
 <p><br></p>
 
+<hr>
+
+The problem consider as first example is the following PDE
+$$
+f_{xx} (x,y)+f_{yy} (x,y) + f(x,y) f_y(x,y)  = \sin(\pi x) \left(2 - \pi^2y^2 + 2y^3 \sin(\pi x)\right)
+$$
+where \(x,y \in [0,1]\) and subject to,
+$$
+f(0,y) &=& 0
+$$
+$$
+f(1,y) &=& 0
+$$
+$$
+f(x,0) &=& 0
+$$
+$$
+f_y(x,1) &=& 2\sin(\pi x)
+$$
+which has the true solution \(f(x,y) = y^2 \sin(\pi x)\).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><br></p>
 <b>Example (Non-linear 3D time-dependent PDE)</b>
 <p><br></p>
 
-The numerical example proposed here is a non-linear 3D and time-dependent PDE provided with analytical solution \(f(x,y,z,t)\) . The PDE is in the form
+The second numerical example proposed here is a non-linear 3D and time-dependent PDE provided with analytical solution \(f(x,y,z,t)\) . The PDE is in the form
 
 $$
 f_x f_y f_z + f_{tt} = \left((t-1)tx(z-1)+x^2\cos(x^2y) + \frac{3}{2}x\sqrt(y)z\right) \left((t-1)ty(z-1)+2xy \cos(x^2y) + y^{3/2} z\right)

@@ -75,5 +75,8 @@ $$
 f(x,y,z,1) = \sin(x^2y) + x \sqrt{y}z + \sin(2\pi z)
 $$
 
-
+whose analytical solution is
+$$
+f(x,y,z,t)=t^2 \sin(2\pi z) + \sin(x^2y) + xy^{3/2}z + xyt(z-1)(t-1)
+$$
 

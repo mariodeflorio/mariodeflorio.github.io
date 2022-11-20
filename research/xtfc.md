@@ -42,9 +42,9 @@ where \(L\) is the number of hidden neurons, \({w}_j\) is the input weights vect
 \(\beta_j \) is the \(j^{th}\) output weight connecting the \(j^{th}\) hidden neuron and the output node, \(b_j\) is the threshold (aka bias) of the \(j^{th}\) hidden neuron, and \(\sigma(\cdot)\) are activation functions. Both weights and bias are previously randomly selected, according to the ELM algorithm.
 <p><br></p>
 The figure below shows the schematic of the physics-informed X-TFC framework to solve forward problems involving parametric DEs.
+
 <p><br></p>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/xtfc_graphical.jpg" alt="" class="full">
-
 <p><br></p>
 
 <hr>
@@ -71,11 +71,18 @@ $$
 which has the true solution \(f(x,y) = y^2 \sin(\pi x)\).
 <br>
 For this problem, the free-function was chosen to be an ELM with 150 neurons that used <i>tanh</i> as the activation function. The problem was discretized over \(20 \times 20\) training points that spanned the domain, and each iteration of the nonlinear least-squares was solved using NumPy's <i>lstsq</i> function. The total execution time was 22.48 seconds, and the nonlinear least-squares, which needed 10 iterations, took 52.6 milliseconds. In addition, the training set maximum error was \(7.634\times10^{-11}\), and the training set average error was \(9.497\times10^{-12}\). The test set maximum error was \(8.977\times10^{-11}\), and the test set average error was \(1.068\times10^{-11}\); the test set was a \(100\times100\) grid of uniformly spaced points.
+<br>
+The following figure summarizes the results of this example.
 
+<p><br></p>
+{% capture fig_img %}
+![Foo]({{ "/assets/images/xtfc_err.png" | relative_url }})
+{% endcapture %}
 
-
-
-
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Photo from Unsplash.</figcaption>
+</figure>
 
 
 

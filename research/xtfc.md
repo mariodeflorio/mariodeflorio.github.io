@@ -119,7 +119,7 @@ f(x,y,z,t)=t^2 \sin(2\pi z) + \sin(x^2y) + xy^{3/2}z + xyt(z-1)(t-1)
 $$
 
 
-For this problem, the free-function was chosen to be an ELM with 340 neurons that used <pre>tanh</pre> as the activation function. The problem was discretized over \( 5 \times 5 \times 5 \times 5\) training points that spanned the domain, and each iteration of the nonlinear least-squares was solved using NumPy's <pre>lstsq</pre> function. The total execution time was 321.9 seconds, and the nonlinear least-squares, which needed 10 iterations, took 0.229 seconds. Additionally, the training set maximum error was \(2.744\times10^{-5}\), and the training set average error was \(6.641\times10^{-7}\). The test set maximum error was \(2.978\times10^{-5}\), and the test set average error was \(8.082\times10^{-7}\); the test set was a \(10\times10\times10\times10\) grid of uniformly spaced points.
+For this problem, the free-function was chosen to be an ELM with 340 neurons that used <tanh> as the activation function. The problem was discretized over \( 5 \times 5 \times 5 \times 5\) training points that spanned the domain, and each iteration of the nonlinear least-squares was solved using NumPy's <lstsq> function. The total execution time was 321.9 seconds, and the nonlinear least-squares, which needed 10 iterations, took 0.229 seconds. Additionally, the training set maximum error was \(2.744\times10^{-5}\), and the training set average error was \(6.641\times10^{-7}\). The test set maximum error was \(2.978\times10^{-5}\), and the test set average error was \(8.082\times10^{-7}\); the test set was a \(10\times10\times10\times10\) grid of uniformly spaced points.
 
 
 

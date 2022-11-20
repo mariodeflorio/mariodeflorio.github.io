@@ -35,11 +35,12 @@ feature_row1:
 <p><br></p>
 
 
-{% include feature_row id="feature_row1" type="left" %}
 
-{% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="Geometry of the 1D slab for the considered Radiative Transfer Problem.." %}
+{% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="Geometry of the 1D slab for the considered Radiative Transfer Problem." %}
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/slab.JPG){: .align-left} In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at $x = 0$, as shown in the follwing figure.
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/slab.JPG){: .align-right} In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at $x = 0$, as shown in the follwing figure.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/slab.JPG){: .align-center}
 
 
 By following the notation used by <a href="https://doi.org/10.1016/S0022-4073(98)00144-7">Siewert</a>, the radiative transfer equation is written as

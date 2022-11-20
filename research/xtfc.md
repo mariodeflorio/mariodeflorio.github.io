@@ -83,7 +83,8 @@ The following figure summarizes the results of this example.
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>Figure (top) illustrates that the solution error is lower near where constraints are defined on the boundary value than where they are defined on the derivative, because the TFC constrained expressions guarantees there will be no error in the solution value for constraints defined on the boundary. Table (bottom) shows that the X-TFC method outperforms all other methods in terms of accuracy by 4 to 6 orders of magnitude.</figcaption>
 </figure>
-
+<p><br></p>
+<hr>
 
 <p><br></p>
 <b>Example (Non-linear 3D time-dependent PDE)</b>

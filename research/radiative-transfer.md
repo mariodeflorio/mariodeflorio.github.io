@@ -8,6 +8,9 @@ header:
     overlay_color: "#000"
     overlay_filter: "0.5"
     overlay_image: /assets/images/radiative.png
+feature_row1:
+  - image_path: /assets/images/slab.JPG
+    excerpt: 'A physics-informed neural network method for solving parametric differential equations.'
 ---
 
 
@@ -41,9 +44,12 @@ header:
 <p><br></p>
 <hr>
 
+{% include feature_row id="feature_row1" type="left" %}
+
+
 By following the notation used by <a href="https://doi.org/10.1016/S0022-4073(98)00144-7">Siewert</a>, the radiative transfer equation is written as
 $$
-    \mu \frac{\partial}{\partial \tau} I(\tau,\mu,\phi) + I(\tau,\mu,\phi) = \frac{\omega}{4\pi} \int_{-1}^1 \int_0^{2\pi} p(\cos\Theta) I(\tau,\mu',\phi')\,d\phi'\,d\mu'
+\mu \frac{\partial}{\partial \tau} I(\tau,\mu,\phi) + I(\tau,\mu,\phi) = \frac{\omega}{4\pi} \int_{-1}^1 \int_0^{2\pi} p(\cos\Theta) I(\tau,\mu',\phi')\,d\phi'\,d\mu'
 $$
 where \(\Theta\) is the scattering angle, $\mu \in [-1,1]$ is the cosine of the polar angle , $\tau \in [0,\tau_0]$ is the optical variable, $\tau_0$ is the optical thickness, $\phi \in [0,2\pi]$ is the azimuthal angle, and $\omega \in [0,1]$ is the single scattering albedo.
 

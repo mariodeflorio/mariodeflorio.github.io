@@ -81,17 +81,8 @@ The following figure summarizes the results of this example.
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Photo from Unsplash.</figcaption>
+  <figcaption>Figure (top) illustrates that the solution error is lower near where constraints are defined on the boundary value than where they are defined on the derivative, because the TFC constrained expressions guarantees there will be no error in the solution value for constraints defined on the boundary. Table (bottom) shows that the X-TFC method outperforms all other methods in terms of accuracy by 4 to 6 orders of magnitude.</figcaption>
 </figure>
-
-
-
-
-
-
-
-
-
 
 
 <p><br></p>

@@ -38,16 +38,15 @@ feature_row1:
 
 {% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="Geometry of the 1D slab for the considered Radiative Transfer Problem." %}
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/slab.JPG){: .align-right} In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at $x = 0$, as shown in the follwing figure.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/slab.JPG){: .align-center}
+
 
 
 By following the notation used by <a href="https://doi.org/10.1016/S0022-4073(98)00144-7">Siewert</a>, the radiative transfer equation is written as
 $$
 \mu \frac{\partial}{\partial \tau} I(\tau,\mu,\phi) + I(\tau,\mu,\phi) = \frac{\omega}{4\pi} \int_{-1}^1 \int_0^{2\pi} p(\cos\Theta) I(\tau,\mu',\phi')\,d\phi'\,d\mu'
 $$
-where \(\Theta\) is the scattering angle, $\mu \in [-1,1]$ is the cosine of the polar angle , $\tau \in [0,\tau_0]$ is the optical variable, $\tau_0$ is the optical thickness, $\phi \in [0,2\pi]$ is the azimuthal angle, and $\omega \in [0,1]$ is the single scattering albedo.
+where \(\Theta\) is the scattering angle, \(\mu \in [-1,1]\) is the cosine of the polar angle, \(\tau \in [0,\tau_0]\) is the optical variable, \(\tau_0\) is the optical thickness, \(\phi \in [0,2\pi]\) is the azimuthal angle, and \(\omega \in [0,1]\) is the single scattering albedo.
 
 
 

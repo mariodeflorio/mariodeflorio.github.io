@@ -33,20 +33,11 @@ feature_row1:
 <font size="3">
 <div style="text-align: justify;"> In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at $x = 0$, as shown in the follwing figure.
 <p><br></p>
-{% capture fig_img %}
-![Foo]({{ "/assets/images/slab.JPG" | relative_url }})
-{% endcapture %}
 
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Geometry of the 1D slab for the considered Radiative Transfer Problem.</figcaption>
-</figure>
-<p><br></p>
-<hr>
 
 {% include feature_row id="feature_row1" type="left" %}
 
-{% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="This is a figure caption." %}
+{% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="Geometry of the 1D slab for the considered Radiative Transfer Problem.." %}
 
 
 

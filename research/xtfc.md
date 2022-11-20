@@ -48,26 +48,29 @@ The figure below shows the schematic of the physics-informed X-TFC framework to 
 <p><br></p>
 
 <hr>
-
+<p><br></p>
+<b>Example (Non-linear 2D PDE)</b>
+<p><br></p>
 The problem consider as first example is the following PDE
 $$
 f_{xx} (x,y)+f_{yy} (x,y) + f(x,y) f_y(x,y)  = \sin(\pi x) \left(2 - \pi^2y^2 + 2y^3 \sin(\pi x)\right)
 $$
 where \(x,y \in [0,1]\) and subject to,
 $$
-f(0,y) &=& 0
+f(0,y) = 0
 $$
 $$
-f(1,y) &=& 0
+f(1,y) = 0
 $$
 $$
-f(x,0) &=& 0
+f(x,0) = 0
 $$
 $$
-f_y(x,1) &=& 2\sin(\pi x)
+f_y(x,1) = 2\sin(\pi x)
 $$
 which has the true solution \(f(x,y) = y^2 \sin(\pi x)\).
-
+<br>
+For this problem, the free-function was chosen to be an ELM with 150 neurons that used <tanh> as the activation function. The problem was discretized over \(20 \times 20\) training points that spanned the domain, and each iteration of the nonlinear least-squares was solved using NumPy's <lstsq> function. The total execution time was 22.48 seconds, and the nonlinear least-squares, which needed 10 iterations, took 52.6 milliseconds. In addition, the training set maximum error was \(7.634\times10^{-11}\), and the training set average error was \(9.497\times10^{-12}\). The test set maximum error was \(8.977\times10^{-11}\), and the test set average error was \(1.068\times10^{-11}\); the test set was a \(100\times100\) grid of uniformly spaced points.
 
 
 

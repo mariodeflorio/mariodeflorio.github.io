@@ -46,6 +46,9 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
+{% include figure image_path="/assets/images/slab.JPG" alt="this is a placeholder image" caption="This is a figure caption." %}
+
+
 
 By following the notation used by <a href="https://doi.org/10.1016/S0022-4073(98)00144-7">Siewert</a>, the radiative transfer equation is written as
 $$

@@ -244,7 +244,7 @@ Once \( {\xi}\) are computed, the final solutions are built according to the con
 \end{equation}
 For the convenience of the reader, the all process described in this section is summarized in the schematic of the following figure.
 
-{% include figure image_path="/assets/images/diagram_imagines.jpg" alt="this is a placeholder image" caption="Schematic of the Theory of Functional Connections algorithm to solve Chandrasekhar's Basic Problem in Radiative Transfer." %}
+{% include figure image_path="/assets/images/diagrams_imagines.jpg" alt="this is a placeholder image" caption="Schematic of the Theory of Functional Connections algorithm to solve Chandrasekhar's Basic Problem in Radiative Transfer." %}
 
 
 <hr>

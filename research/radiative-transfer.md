@@ -19,7 +19,7 @@ feature_row1:
 <font size="3">via Theory of Functional Connections</font>
 <p><br></p>
 <font size="3">
-<div style="text-align: justify;"> We present a novel approach to solving Chandrasekhar's problem in radiative transfer using the recently developed <a href="https://doi.org/10.3390/math5040057"><i>Theory of Functional Connections</i></a>}. The method is designed to elegantly and accurately solve the Linear Boundary Value Problem from the angular discretization of the integrodifferential Boltzmann equation for Radiative Transfer. The proposed algorithm falls under the category of numerical methods for the solution of radiative transfer equations. This new method's accuracy is tested via comparison with the published benchmarks for Mie and Haze L scattering laws.</div>
+<div style="text-align: justify;"> We present a novel approach to solving Chandrasekhar's problem in radiative transfer using the recently developed <a href="https://doi.org/10.3390/math5040057"><i>Theory of Functional Connections</i></a>. The method is designed to elegantly and accurately solve the Linear Boundary Value Problem from the angular discretization of the integrodifferential Boltzmann equation for Radiative Transfer. The proposed algorithm falls under the category of numerical methods for the solution of radiative transfer equations. This new method's accuracy is tested via comparison with the published benchmarks for Mie and Haze L scattering laws.</div>
 </font>
 
 
@@ -305,7 +305,7 @@ This is solved for \( {\zeta}_j^{\pm}\) via LS. Once \({\zeta}_j^{\pm}\) are com
 
 
 The algorithm described above has been implemented in both Matlab and Python platforms. To validate the accuracy of our framework, we compared our results with some of typical benchmarks for the Radiative Transfer problems, such as Mie Scattering and Haze L Problem.  We ran all our simulations with an Intel Core i7 - 9700 CPU PC with 64 GB of RAM. The results reported below are obtained via Matlab, although the ones computed with Python achieved the same order of accuracy.<br>
-Our results are compared with benchmarks in literature published by <a href="https://doi.org/10.1080/00411458508211687">Garcia and Siewert (1986)</a>} and reported in our <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">paper</a>.
+Our results are compared with benchmarks in literature published by <a href="https://doi.org/10.1080/00411458508211687">Garcia and Siewert (1986)</a> and reported in our <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">paper</a>.
 
 
 

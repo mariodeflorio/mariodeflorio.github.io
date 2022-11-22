@@ -254,15 +254,15 @@ For the convenience of the reader, the all process described in this section is 
 <p><br></p>
 
 
-Via the discretization of the cosine of the polar angle \(\mu\), the solutions obtained are for specific angles \(\mu\) that are the Gauss--Legendre quadrature nodes. However, in many applications, it is necessary to compute the solutions for any arbitrary angles, that can be different than the Gauss--Legendre quadrature nodes. To compute the solutions at any arbitrary query points \(\mu\) a post--processing is needed. 
-The post--processing is also performed via TFC
+Via the discretization of the cosine of the polar angle \(\mu\), the solutions obtained are for specific angles \(\mu\) that are the Gauss-Legendre quadrature nodes. However, in many applications, it is necessary to compute the solutions for any arbitrary angles, that can be different than the Gauss-Legendre quadrature nodes. To compute the solutions at any arbitrary query points \(\mu\) a post-processing is needed. 
+The post-processing is also performed via TFC
 \begin{equation}
         (c\gamma_j  {h'} +  {h} - {h_0} )^T   {\zeta}_j^+ =   \frac{\omega}{2} \sum_{l=m}^L   \beta_l P_l^m(\gamma_j) \sum_{k=1}^N w_k P_l^m(\mu_k)  [( {h} - {h_0} )^T  {\xi}_k^+ +(-1)^{l-m} ( {h} - {h_f} )^T  {\xi}_k^-] +    {b_i^+}
 \end{equation}
 \begin{equation}
         (-c\gamma_j  {h'} +  {h} - {h_f} )^T   {\zeta}_j^- =  \frac{\omega}{2} \sum_{l=m}^L  \beta_l P_l^m(-\gamma_j) \sum_{k=1}^N w_k P_l^m(-\mu_k)  [(-1)^{l-m}( {h} - {h_0} )^T  {\xi}_k^+ + ( {h} - {h_f} )^T  {\xi}_k^-] +     {b_i^-}
 \end{equation}
-where \(\gamma_j\) are the query angles, and \( {\zeta_j^{\pm}}\) are the vectors of the new unknowns corresponding to the angle \(\gamma_j\), and the right--hand sides of the equations are known. Hence, we obtain the following linear system:
+where \(\gamma_j\) are the query angles, and \( {\zeta_j^{\pm}}\) are the vectors of the new unknowns corresponding to the angle \(\gamma_j\), and the right-hand sides of the equations are known. Hence, we obtain the following linear system:
 \begin{equation}
           \begin{pmatrix}
                 c\gamma_j  {h'} +  {h} - {h_0} 

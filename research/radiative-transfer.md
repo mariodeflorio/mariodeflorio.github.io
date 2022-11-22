@@ -98,7 +98,7 @@ Thus, we can express the diffuse component as a Fourier expansion with \(L\) ter
 $$
      I^*(\tau,\mu,\phi) = \frac{1}{2} \sum_{m=0}^{L} (2-\delta_{0,m})  I_m(\tau,\mu) \cos[m(\phi - \phi_0)] 
 $$
-The $m^{th}$ Fourier component satisfies the following linear integro - $1^{st}$ order PDE:
+The \(m^{th}\) Fourier component satisfies the following linear integro - \(1^{st}\) order PDE:
 $$
 \mu \frac{\partial}{\partial t} I_m(\tau,\mu) + I_m(\tau,\mu) = \frac{\omega}{2}\sum_{l=m}^L \beta_l P_l^m(\mu) \int_{-1}^1 P_l^m(\mu')I_m(\tau,\mu')d\mu' + Q^m(\tau,\mu),
 $$
@@ -198,10 +198,9 @@ Finally, we get the CEs for the fluxes in the following form:
 \begin{equation} \label{sol}
     I_m^+ = ( {h}^T -  {h_0}^T)   {\xi}^+  \qquad ;  \qquad I_m^- = ( {h}^T -  {h_f}^T)   {\xi}^-,
 \end{equation}
-where \( {\xi}^+\) and \( {\xi}^-\) are the unknowns to be computed via LS.
-Plugging \eqref{sol} into our DEs, we get:
+where \( {\xi}^+\) and \( {\xi}^-\) are the unknowns to be computed via LS. Plugging it into our DEs, we get:
 \begin{multline}
-        c\mu_i    {h'}^T  {\xi}_i^+ + ( {h} - {h_0} )^T   {\xi}_i^+ = \\ =
+        c\mu_i    {h'}^T  {\xi}_i^+ + ( {h} - {h_0} )^T   {\xi}_i^+ = \\ = 
         \frac{\omega}{2} \sum_{l=m}^L \beta_l P_l^m(\mu_i) \sum_{k=1}^N w_k P_l^m(\mu_k)  [( {h} - {h_0} )^T   {\xi}_k^+ +(-1)^{l-m} ( {h} - {h_f})^T   {\xi}_k^-]  + \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
 \end{multline}
 \begin{multline}
@@ -244,11 +243,8 @@ Once \( {\xi}\) are computed, the final solutions are built according to the con
     I(\tau,-\mu, \phi) = \frac{1}{2} \sum_{m=0}^L (2-\delta_{0,m}) {I_m}(\tau,-\mu) \cos[m(\phi - \phi_0)]
 \end{equation}
 For the convenience of the reader, the all process described in this section is summarized in the schematic of the following figure.
-\begin{figure}[H]
-    \centering\includegraphics[width=1\linewidth]{diagrams_imagines.jpg}
-    \caption{Schematic of the Theory of Functional Connections algorithm to solve Chandrasekhar's Basic Problem in Radiative Transfer.}
-    \label{rte_summary}
-\end{figure}
+
+{% include figure image_path="/assets/images/diagram_imagines.jpg" alt="this is a placeholder image" caption="Schematic of the Theory of Functional Connections algorithm to solve Chandrasekhar's Basic Problem in Radiative Transfer." %}
 
 
 

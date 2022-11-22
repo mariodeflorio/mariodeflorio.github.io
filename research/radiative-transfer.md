@@ -149,7 +149,7 @@ In our case, we assume to have one constraint in one point; hence, according to 
 \end{equation}
 We set \(p(\tau) = 1\) and the function \(g(\tau)\) as an expansion of Chebyshev polynomials as follows:
 \begin{equation}
-    g(\tau) = \bm{h}^T(\tau)  \bm{\xi}
+    g(\tau) =  {h}^T(\tau)   {\xi}
 \end{equation}
 Since Chebyshev Polynomials are used as basis functions, we need to define a new variable \(x\) that ranges in \([-1,1]\). The new \(x\) variable is defined as \(x = c\tau -1\), where \(c\) is the mapping coefficient:
 \begin{equation*}
@@ -196,47 +196,47 @@ and then:
 \end{equation*}
 Finally, we get the CEs for the fluxes in the following form:
 \begin{equation} \label{sol}
-    I_m^+ = (\bm{h}^T - \bm{h_0}^T)  \bm{\xi}^+  \qquad ;  \qquad I_m^- = (\bm{h}^T - \bm{h_f}^T)  \bm{\xi}^-,
+    I_m^+ = ( {h}^T -  {h_0}^T)   {\xi}^+  \qquad ;  \qquad I_m^- = ( {h}^T -  {h_f}^T)   {\xi}^-,
 \end{equation}
-where \(\bm{\xi}^+\) and \(\bm{\xi}^-\) are the unknowns to be computed via LS.
+where \( {\xi}^+\) and \( {\xi}^-\) are the unknowns to be computed via LS.
 Plugging \eqref{sol} into our DEs, we get:
 \begin{multline}
-        c\mu_i   \bm{h'}^T \bm{\xi}_i^+ + (\bm{h} -\bm{h_0} )^T  \bm{\xi}_i^+ = \\ =
-        \frac{\omega}{2} \sum_{l=m}^L \beta_l P_l^m(\mu_i) \sum_{k=1}^N w_k P_l^m(\mu_k)  [(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ +(-1)^{l-m} (\bm{h} -\bm{h_f})^T  \bm{\xi}_k^-]  + \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
+        c\mu_i    {h'}^T  {\xi}_i^+ + ( {h} - {h_0} )^T   {\xi}_i^+ = \\ =
+        \frac{\omega}{2} \sum_{l=m}^L \beta_l P_l^m(\mu_i) \sum_{k=1}^N w_k P_l^m(\mu_k)  [( {h} - {h_0} )^T   {\xi}_k^+ +(-1)^{l-m} ( {h} - {h_f})^T   {\xi}_k^-]  + \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
 \end{multline}
 \begin{multline}
-        - c\mu_i    \bm{h'}^T \bm{\xi}_i^- + (\bm{h} -\bm{h_f} )^T   \bm{\xi}_i^- = \\ =
-        \frac{\omega}{2} \sum_{l=m}^L  \beta_l P_l^m(-\mu_i) \sum_{k=1}^N  w_k  P_l^m(-\mu_k)  [(-1)^{l-m}(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ + (\bm{h} -\bm{h_f} )^T  \bm{\xi}_k^-] +  \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
+        - c\mu_i     {h'}^T  {\xi}_i^- + ( {h} - {h_f} )^T    {\xi}_i^- = \\ =
+        \frac{\omega}{2} \sum_{l=m}^L  \beta_l P_l^m(-\mu_i) \sum_{k=1}^N  w_k  P_l^m(-\mu_k)  [(-1)^{l-m}( {h} - {h_0} )^T   {\xi}_k^+ + ( {h} - {h_f} )^T   {\xi}_k^-] +  \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
 \end{multline}
 Reorganizing all the terms we get:
 \begin{multline}
-        (c\mu_i \bm{h'} +  \bm{h} -\bm{h_0} )^T  \bm{\xi}_i^+  - \frac{\omega}{2} \sum_{l=m}^L   \beta_l  P_l^m(\mu_i)  \sum_{k=1}^N w_k P_l^m(\mu_k)  [(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ +(-1)^{l-m}  (\bm{h} -\bm{h_f} )^T  \bm{\xi}_k^-]  =   \\  = \frac{\omega}{2} e^{-\tau/\mu_0}  \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
+        (c\mu_i  {h'} +   {h} - {h_0} )^T   {\xi}_i^+  - \frac{\omega}{2} \sum_{l=m}^L   \beta_l  P_l^m(\mu_i)  \sum_{k=1}^N w_k P_l^m(\mu_k)  [( {h} - {h_0} )^T   {\xi}_k^+ +(-1)^{l-m}  ( {h} - {h_f} )^T   {\xi}_k^-]  =   \\  = \frac{\omega}{2} e^{-\tau/\mu_0}  \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
 \end{multline}
 \begin{multline}
-        (-c\mu_i \bm{h'} + \bm{h} -\bm{h_f} )^T  \bm{\xi}_i^- - \frac{\omega}{2} \sum_{l=m}^L  \beta_l  P_l^m(-\mu_i)  \sum_{k=1}^N w_k P_l^m(-\mu_k) [(-1)^{l-m}(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ +  (\bm{h} -\bm{h_f} )^T  \bm{\xi}_k^-]  =  \\  =  \frac{\omega}{2} e^{-\tau/\mu_0}  \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
+        (-c\mu_i  {h'} +  {h} - {h_f} )^T   {\xi}_i^- - \frac{\omega}{2} \sum_{l=m}^L  \beta_l  P_l^m(-\mu_i)  \sum_{k=1}^N w_k P_l^m(-\mu_k) [(-1)^{l-m}( {h} - {h_0} )^T   {\xi}_k^+ +  ( {h} - {h_f} )^T   {\xi}_k^-]  =  \\  =  \frac{\omega}{2} e^{-\tau/\mu_0}  \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
 \end{multline}
 For the sake of simplicity, we write the inhomogeneous term as:
 \begin{equation*}
-    \qquad \bm{\bm{b_i^+}} = \frac{\omega}{2}e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i) \qquad \qquad \qquad \qquad   \bm{\bm{b_i^-}} = \frac{\omega}{2}e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
+    \qquad  { {b_i^+}} = \frac{\omega}{2}e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i) \qquad \qquad \qquad \qquad    { {b_i^-}} = \frac{\omega}{2}e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
 \end{equation*}
 So, the two problems become:
 \begin{equation} \label{probp}
-        (c\mu_i \bm{h'} + \bm{h} -\bm{h_0} )^T   \bm{\xi}_i^+   - \frac{\omega}{2} \sum_{l=m}^L   \beta_l P_l^m(\mu_i) \sum_{k=1}^N w_k P_l^m(\mu_k)  [(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ +(-1)^{l-m} (\bm{h} -\bm{h_f} )^T  \bm{\xi}_k^-] =   \bm{b_i^+}
+        (c\mu_i  {h'} +  {h} - {h_0} )^T    {\xi}_i^+   - \frac{\omega}{2} \sum_{l=m}^L   \beta_l P_l^m(\mu_i) \sum_{k=1}^N w_k P_l^m(\mu_k)  [( {h} - {h_0} )^T   {\xi}_k^+ +(-1)^{l-m} ( {h} - {h_f} )^T   {\xi}_k^-] =    {b_i^+}
 \end{equation}
 \begin{equation}\label{probn}
-        (-c\mu_i \bm{h'} + \bm{h} -\bm{h_f} )^T   \bm{\xi}_i^-   - \frac{\omega}{2} \sum_{l=m}^L  \beta_l P_l^m(-\mu_i) \sum_{k=1}^N w_k P_l^m(-\mu_k)  [(-1)^{l-m}(\bm{h} -\bm{h_0} )^T  \bm{\xi}_k^+ + (\bm{h} -\bm{h_f} )^T  \bm{\xi}_k^-] =    \bm{b_i^-}
+        (-c\mu_i  {h'} +  {h} - {h_f} )^T    {\xi}_i^-   - \frac{\omega}{2} \sum_{l=m}^L  \beta_l P_l^m(-\mu_i) \sum_{k=1}^N w_k P_l^m(-\mu_k)  [(-1)^{l-m}( {h} - {h_0} )^T   {\xi}_k^+ + ( {h} - {h_f} )^T   {\xi}_k^-] =     {b_i^-}
 \end{equation}
 
 which is a problem of the type:
 \begin{equation}
-    \bm{A}  \bm{\xi} = \bm{B}
+     {A}   {\xi} =  {B}
 \end{equation}
 
-That is, the original Linear BVP has been reformulated as an <i>unconstrained</i> optimization problem. In this case, $\bm{\xi}$ is calculated with only one direct pass via LS methods. That is:
+That is, the original Linear BVP has been reformulated as an <i>unconstrained</i> optimization problem. In this case, $ {\xi}$ is calculated with only one direct pass via LS methods. That is:
 \begin{equation}\label{eq:LS}
-    \bm{\xi} = \left( \bm{A}^T \bm{A} \right)^{-1} \bm{A}^T \bm{B}
+     {\xi} = \left(  {A}^T  {A} \right)^{-1}  {A}^T  {B}
 \end{equation}
-Once \(\bm{\xi}\) are computed, the final solutions are built according to the constrained expressions. After finding the solutions for all \(m^{th}\) Fourier components (with \(m = 0,1,...,L\)), we can compute the diffuse terms expressed as:
+Once \( {\xi}\) are computed, the final solutions are built according to the constrained expressions. After finding the solutions for all \(m^{th}\) Fourier components (with \(m = 0,1,...,L\)), we can compute the diffuse terms expressed as:
 \begin{equation}
     I(\tau,\mu, \phi) = \frac{1}{2} \sum_{m=0}^L (2-\delta_{0,m}) {I_m}(\tau,\mu) \cos[m(\phi - \phi_0)]
 \end{equation}

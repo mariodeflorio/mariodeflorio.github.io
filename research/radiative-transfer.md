@@ -31,7 +31,7 @@ feature_row1:
 <font size="6">Radiative Transfer Equation: Problem formulation</font>
 <p><br></p>
 <font size="3">
-<div style="text-align: justify;"> In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at $x = 0$, as shown in the follwing figure.
+<div style="text-align: justify;"> In this <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">work</a>, we aim to solve the Chandrasekhar's basic problem for Radiative Transfer for an incoming beam at \(x = 0\), as shown in the follwing figure.
 <p><br></p>
 
 
@@ -48,7 +48,19 @@ $$
 $$
 where \(\Theta\) is the scattering angle, \(\mu \in [-1,1]\) is the cosine of the polar angle, \(\tau \in [0,\tau_0]\) is the optical variable, \(\tau_0\) is the optical thickness, \(\phi \in [0,2\pi]\) is the azimuthal angle, and \(\omega \in [0,1]\) is the single scattering albedo.
 
-
+The addition theorem to express the phase function in terms of Legendre polynomials:
+$$
+p(\cos\Theta) = \sum_{l=0}^L \beta_l P_l (\cos\Theta)
+$$
+where the \(\beta_l\) are the Legendre coefficients in the \(L^{th}\) order expansion of scattering law.<br>
+The problem is subject to the following constraints/boundary conditions:
+$$
+\begin{cases} 
+   I(0,\mu,\phi) = S_0 \pi \delta(\mu - \mu_0)\delta(\phi - \phi_0)    & \qquad   \text{for} \quad \mu > 0 \\
+   I(\tau_0,\mu,\phi) = 0   & \qquad  \text{for} \quad \mu < 0
+\end{cases}
+$$
+where \(S_0 \pi\) represents the flux carried by a source beam across a plane normal to the direction of incidence, and \(\mu_0\) and \(\phi_0\) determine the inclination of the source beam.
 
 
 

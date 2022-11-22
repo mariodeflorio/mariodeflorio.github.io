@@ -131,7 +131,7 @@ $$
         \mu_i \frac{\partial}{\partial \tau} I_m(\tau,\mu_i) +  I_m(\tau,\mu_i)  =     \\ =\frac{\omega}{2}\sum_{l=m}^L \beta_l P_l^m(\mu_i)  \sum_{k=1}^N w_k P_l^m(\mu_k) [I_m(\tau,\mu_k) +(-1)^{l-m} I_m(\tau, -\mu_k)] +  \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(\mu_i)
 \end{multline}
 $$
-\begin{multline} <label>eqn:neg</label>
+\begin{multline}
         -\mu_i \frac{\partial}{\partial \tau} I_m(\tau,-\mu_i) +  I_m(\tau,-\mu_i) = \\ =        \frac{\omega}{2}\sum_{l=m}^L \beta_l P_l^m(-\mu_i)  \sum_{k=1}^N  w_k P_l^m(-\mu_k) [(-1)^{l-m}I_m(\tau,\mu_k) + I_m(\tau, -\mu_k)] +  \frac{\omega}{2} e^{-\tau/\mu_0} \sum_{l=m}^L \beta_l P_l^m(\mu_0)P_l^m(-\mu_i)
 \end{multline}
 where the Gauss-Legendre quadrature rule is used to evaluate the integral in the range \([0,1]\). Now we got a set of \(N\) linear first-order ODEs that we will solve via TFC.

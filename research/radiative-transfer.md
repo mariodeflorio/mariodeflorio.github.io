@@ -296,9 +296,16 @@ This is solved for \( {\zeta}_j^{\pm}\) via LS. Once \({\zeta}_j^{\pm}\) are com
 
 
 
+<hr>
+
+
+<font size="6">Results and Discussions</font>
+<p><br></p>
 
 
 
+The algorithm described above has been implemented in both Matlab and Python platforms. To validate the accuracy of our framework, we compared our results with some of typical benchmarks for the Radiative Transfer problems, such as Mie Scattering and Haze L Problem.  We ran all our simulations with an Intel Core i7 - 9700 CPU PC with 64 GB of RAM. The results reported below are obtained via Matlab, although the ones computed with Python achieved the same order of accuracy.<br>
+Our results are compared with benchmarks in literature published by <a href="https://doi.org/10.1080/00411458508211687">Garcia and Siewert (1986)</a>} and reported in our <a href="https://doi.org/10.1016/j.jqsrt.2020.107384">paper</a>.
 
 
 

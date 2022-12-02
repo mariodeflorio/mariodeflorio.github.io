@@ -41,9 +41,10 @@ For the convenience of the reader, the schematic of the figure below summarizes 
 
 
 
+Since we are facing long-time domain problems, a decomposition of the temporal domain into sub-intervals was performed to minimize the carryover of the error during the chemical reactions between the species. The temporal domain (whose decomposition is pictured in the following figure is divided into \(n\) time steps of equal size \(h = t_k - t_{k-1}\) for \(k=1,...,n\), each of which is discretized into \(n_x\) points.
 
 
-
+{% include figure image_path="/assets/images/stiff_domain.jpg" alt="this is a placeholder image" caption="Decomposition of time domain in subintervals of length \(h\)." %}
 
 
 

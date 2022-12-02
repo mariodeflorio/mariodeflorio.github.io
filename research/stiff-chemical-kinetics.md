@@ -20,3 +20,32 @@ header:
 </font>
 
 
+<hr>
+
+
+<font size="6">Chemical Kinetics Equations and Time-Domain Decomposition</font>
+<p><br></p>
+<font size="3">
+<div style="text-align: justify;"> The recently developed Physics-Informed Neural Networks (PINN) is attracting a lot of attention among the numerical methods for solving Differential Equations. Despite its many advantages, its failure in solving stiff systems of Ordinary Differential Equations has been demonstrated. This study shows as merging PINN with the Theory of Functional Connections allows to obtain highly accurate solutions for Stiff non-linear Chemical Kinetics problems. The initial conditions are always analytically satisfied via particular expressions called Constrained Expressions, and the boundary-free solution is expanded with a Single-Layer Forward Neural Network, trained via Extreme Learning Machine algorithm. The proposed method is tested by solving classic, challenging chemical kinetics problems from the literature, and it can be applied to many chemical, biological, and nuclear systems subject to stiffness. The stiff Chemical Kinetics systems of equations we aim to solve in this <a href="https://doi.org/10.1063/5.0086649">work</a>, are IVPs of ODEs, having the following form:
+\begin{equation}
+    \begin{cases}
+        \dfrac{d y_i(t)}{d t} = f_i(t, y_1,y_2,...,y_m) \\
+        y_i(0) = {y_i}_0
+    \end{cases}  
+\end{equation}
+with \(i = 1,2,...,m\), where the unknowns are the functions \(y_i(t)\), representing the time-dependent chemical species concentrations. The non-linear functions \(f_i\) and the initial conditions \({y_i}_0\) are known. The computational challenge for numerical methods with this kind of problem lies in the complex behavior and existence of sharp gradients in the unknown solution. This particular behavior is the so-called stiffness of a problem whose complete and precise definition has not yet been formulated. A problem can be considered stiff when a solution varies very slowly, but other nearby solutions can present steep changes. If a numerical method used to solve IVPs of ODEs is forced to decompose the time domain into multiple excessively small sub-intervals in relation to the smoothness of the exact solution in that domain, then that system of ODEs is stiff in that domain. Or even, a problem is considered being stiff if explicit methods are not capable of solving it.
+<p><br></p>
+For the convenience of the reader, the schematic of the figure below summarizes the all X-TFC process used in this work.
+
+{% include figure image_path="/assets/images/stiff_scheme.jpg" alt="this is a placeholder image" caption="Schematic of the X-TFC algorithm to solve the Chemical Kinetics Equations." %}
+
+
+
+
+
+
+
+
+
+
+

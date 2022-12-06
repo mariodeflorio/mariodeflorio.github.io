@@ -96,7 +96,7 @@ where \(k_1, k_2,\) and \(k_3\) are the reaction rate constants, and \(A\), \(B\
 \end{equation}
 The values of the reaction rate constants are \(k_1 = 0.04\), \(k_2=3 \times 10^7\), and \(k_3 = 10^4\), thus varying in a range of 9 orders. This large variation of the parameters is the cause of the strong stiffness of the problem. In the figure below, we report X-TFC solutions compared with those obtained by the MATLAB stiff ode solver <i>ode15s</i>, which we consider here the true solution for our qualitative and quantitative comparison. The time span for producing this plot is \(t\in[10^{-5},10^5]\), and the training points are uniformly spaced in a logarithmic time scale. The step size used is \(h = 2000\), which allows us to obtain these results in a computational time of about \(0.015\) seconds. The average training error is \(8.5 \times 10^{-12}\). In the top three subplots, we can see how our solutions overlap with those computed by <i>ode15s</i>, with absolute error in the order of \(10^{-15} \div 10^{-05}\) (bottom subplots). This proves that X-TFC method is much more reliable in solving the ROBER problem than the regular PINN, which fails in this task, even if artifacts to reduce the stiffness of the ODE system are employed.
 
-{% include figure image_path="/assets/images/rober.eps" alt="this is a placeholder image" caption="Species concentration of ROBER problem computed with MATLAB ode15s and X-TFC (top) and absolute values of the errors between the two methods (bottom)." %}
+{% include figure image_path="/assets/images/rober.jpg" alt="this is a placeholder image" caption="Species concentration of ROBER problem computed with MATLAB ode15s and X-TFC (top) and absolute values of the errors between the two methods (bottom)." %}
 
 
 <hr>

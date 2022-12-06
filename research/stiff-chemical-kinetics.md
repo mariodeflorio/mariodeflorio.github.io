@@ -46,6 +46,116 @@ Since we are facing long-time domain problems, a decomposition of the temporal d
 
 {% include figure image_path="/assets/images/stiff_domain.jpg" alt="this is a placeholder figure" caption="Decomposition of time domain in subintervals of length h." %}
 
+Thus, this decomposition into time steps leads to the solution of several consecutive IVPs: 
+\begin{equation}
+    \begin{cases}
+        \dfrac{d y_i^{(k)}(t)}{d t} = f_i(t, y_1^{(k)},y_2^{(k)},...,y_m^{(k)}) \\
+        y_i^{(k)}(0) = {y_i}_0^{(k)}
+    \end{cases}
+\end{equation}
+with \(i = 1,2,...,m\). Initially, we solve the system of ODEs in the time step 1 by using the initial conditions \(y_i(t) = {y_i}_0\) given by the problem, thus finding the unknown solutions at time \(t_1\), which become the new initial conditions for the next step, and so on:
+\begin{equation}
+    {y_i}_0^{(k)} = {y_i}_f^{(k-1)}(t_k)
+\end{equation}
+Thus, the CE for the \(k\)-th time step is:
+\begin{equation}
+    y_i^{(k)}(t_k) = g(t_k) + \left( {y_i}_f^{(k-1)}(t_k) - g_0^{(k)} \right).
+\end{equation}
+
+<p><br></p>
+
+Four chemical kinetics benchmark problems are analyzed, and numerically solved, and the solutions are compared with state-of-art methods' results. All the problems tackled in this manuscript have been coded in Matlab R2021a and run with an Intel Core i7 - 9700 CPU PC with 64 GB of RAM. Four benchmark problems in Chemical Kinetics are used for our simulations: the Robertson's chemical reaction model, as known as the ROBER problem, the Chemical Akzo Nobel problem, the Belousov-Zhabotinsky reaction, an air pollution problem, as known as POLLU problem. In the X-TFC framework, several hyperparameters can be adjusted to obtain accurate solutions, such as the number of training points, \(n_x\), the number of neurons, \(L\), the type of activation function, and the probability distribution where input weights and bias are sampled. For all the problems we have used a hyperbolic tangent (tanh) as a activation function, and the weights and biases are randomly sampled from  \(\mathcal{U}[-1,1]\). 
+
+<font size="4">ROBER problem</font>
+<p><br></p>
+<font size="3">
+
+The first test case is given by the Robertson's system of equations, denoted as ROBER problem by Wanner and Hairer. This model has been developed to describe the chemical kinetics of the following autocatalytic reaction:
+\begin{align*}
+    A  & \qquad \xrightarrow{k_1} \qquad B , \\
+    B + B  & \qquad \xrightarrow{k_2} \qquad C + B , \\
+    B + C & \qquad \xrightarrow{k_3} \qquad A + C ,
+\end{align*}
+where \(k_1, k_2,\) and \(k_3\) are the reaction rate constants, and \(A\), \(B\), and \(C\) are the chemical species, whose evolution of concentrations \((y_1, y_2, y_3)\) is governed by the following system of 3 non-linear ODEs:
+\begin{equation}
+    \begin{cases}
+      y_1' = - k_1 y_1 + k_3 y_2 y_3 \\
+      y_2' = k_1 y_1 - k_2 y_2^2 - k_3 y_2 y_3 \\
+      y_3' =  k_2 y_2^2
+    \end{cases} \;  \text{s.t.}  \qquad
+    \begin{cases}
+        {y_1}(0) = 1 \\
+         {y_2}(0) = 0 \\
+          {y_3}(0) = 0
+    \end{cases}
+    \label{eq:rober}
+\end{equation}
+The values of the reaction rate constants are \(k_1 = 0.04\), \(k_2=3 \times 10^7\), and \(k_3 = 10^4\), thus varying in a range of 9 orders. This large variation of the parameters is the cause of the strong stiffness of the problem. 
+
+In Table \ref{tab:table_rober} the solutions over $t = [0,4000]$ are reported. The results for $t = 0.4,40,4000$ are obtained with $L=11,9,10$, and $n_x = 11,9,10$, respectively, fixed step size $h=0.001$, and tolerance of $10^{-12}$. The training points are uniformly spaced in a linear time scale. The computational times for $t = 0.4,40,4000$ are $\approx 0.06$ , $6.7,$ and $580$ seconds, respectively. The average training errors for the three time instants are $7.3 \times 10^{-16}$,  $7.1 \times 10^{-17}$, and $3.2 \times 10^{-13}$, respectively.\\
+In this table we can appreciate a good compatibility with the hybrid method presented in Ref. \cite{mehdizadeh2019new}, the MEBDF code \cite{mebdf}, and LSODE method presented by Shampine \cite{shampine2018numerical}, up to the $11^{th}$ significant digit.
+\begin{table*}[h]
+\begin{ruledtabular}
+\begin{tabular}{ccccccccc}
+$\boldsymbol{t}$ &$\qquad$ & $\boldsymbol{y_i}$ & & \makecell{X-TFC } &  Hybrid method & \makecell{MEBDF}  & \makecell{LSODE} \\ 
+\hline
+  $0.4$ & &  \makecell{ $y_1$ \\ $y_2$ \\ $y_3$ } & &  \makecell{ 
+  9.85172113860984E-01 \\
+  3.38639537897481E-05\\
+  1.47940221852260E-02
+  } & \makecell{
+ 9.85172113863231E-01 \\
+ 3.38639537890947E-05\\
+ 1.47940221854882E-02
+  } & \makecell{
+9.85172113861E-01 \\
+3.38639737897E-05  \\
+1.47940221854E-02   } & \makecell{
+ 9.8517E-01 \\
+  3.3864E-05 \\
+ 1.4794E-02 
+  }   \\
+ \midrule
+  $40$ & &  \makecell{$y_1$ \\ $y_2$ \\ $y_3$ } & &  \makecell{ 
+7.15827068708193E-01\\
+9.18553476412204E-06 \\
+2.84163745757042E-01
+  }  & \makecell{
+7.15827068718994E-01 \\
+9.18553476456752E-06\\
+2.84163745746361E-01
+  }   & \makecell{
+7.15827068782E-01  \\
+9.18553476564E-06 \\
+2.84163745733E-01  } & \makecell{
+ 7.1582E-01 \\
+  9.1851E-06 \\
+  2.8417E-01 } \\
+ \midrule
+  $4000$ & &  \makecell{$y_1$ \\ $y_2$ \\ $y_3$  } & &  \makecell{ 
+1.83202257727415E-01 \\
+8.94237125021386E-07 \\
+8.16796848001225E-01
+  }  & \makecell{
+ 1.83202041873152E-01 \\
+8.94235840002591E-07\\
+8.16797063891367E-01
+ } & \makecell{
+ 1.83202281848E-01 \\
+ 9.94237268115E-07  \\
+ 8.16794145152E-01
+  } & \makecell{
+ 1.8320E-01  \\
+ 8.9423E-07  \\
+ 8.1680E-01
+ }  
+\end{tabular}
+\caption{Species concentrations at times $t = 0.4,40,4000$ of X-TFC, Ref. \cite{mehdizadeh2019new}, MEBDF, and SDMM, for the ROBER problem.}
+\label{tab:table_rober}
+\end{ruledtabular}
+\end{table*}
+
+
 
 
 

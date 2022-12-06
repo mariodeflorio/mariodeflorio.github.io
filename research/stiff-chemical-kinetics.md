@@ -133,7 +133,10 @@ The system of ODEs modeling the Belousov-Zhabotinsky reaction is
       y_7' =  k_4 y_3^2
     \end{cases}
 \end{equation}
-subject to \(y_i(0) = \left( 0.066, 0 , 0,0,0.066,0.002,0  \right)^T\), for \( t \in [0,40]\).
+subject to \(y_i(0) = \left( 0.066, 0 , 0,0,0.066,0.002,0  \right)^T\), for \( t \in [0,40]\). The following figure shows the simulation results obtained using X-TFC with \(L=20\), \(n_x = 20\), fixed step size \(h=0.01\), and tolerance of \(10^{-9}\), for three different integration times. The training points are uniformly spaced in a linear time scale, and the computational times for \(t =[0,40]\) is \(\approx 3\) seconds. One can clearly see the rapid "jumps" in the solutions with a period of approximately \(16 s\). The qualitative analogy with the converged solutions presented by the Gear's method and the Almost Runge-Kutta and Aluffi-Pentini methods (obtained with CPU times of \(\approx 9 s.\)) is evident. As one can see from the figure below (c), we can extend the integration time to a very large range (e.g., 5000 seconds) while continuing to obtain accurate solutions without negative values.
+
+{% include figure image_path="/assets/images/belusov.JPG" alt="this is a placeholder image" caption="Species concentrations (Y,P,Z,Q) of Belousov-Zhabotinsky reaction computed with X-TFC for integration time of 40 seconds (a) and 120 seconds (b). A simulation for integration time of 5000 seconds shows the robustness of X-TFC method for very large time domains (c)." %}
+
 
 
 

@@ -139,9 +139,11 @@ subject to \(y_i(0) = \left( 0.066, 0 , 0,0,0.066,0.002,0  \right)^T\), for \( t
 
 
 
+Two MATLAB functions, <i>ode15s</i> and <i>ode15i</i> have been implemented to compare their results with X-TFC framework. The solutions of the three methods for all the 7 species reacting in the chemical process are reported in the following figures, for the integration times of 40 seconds and 120 seconds, respectively. Both solutions of <i>ode15s</i> and <i>ode15i</i> have been obtained with time step \(h=0.0001\) and tolerance of \(10^{-9}\). We can see that <i>ode15s</i> is able to find the solution only for the first jump, after which it fails, keeping the species concentrations constant in time. From the figure for \(40 s\) domain, we can note that <i>ode15i</i> captures the solutions for the first jump, but with a delay of about 1 second for the second jump and about 3 seconds for the third jump. By extending the time interval to \(120 s\), we see that after the third jump, it stops working, keeping the species concentrations constant in time.
 
+{% include figure image_path="/assets/images/belusov40.jpg" alt="this is a placeholder image" caption="Species concentrations of Belousov-Zhabotinsky reaction computed with X-TFC, ode15i, and ode15s, for integration time of 40 seconds." %}
 
-
+{% include figure image_path="/assets/images/belusov120.jpg" alt="this is a placeholder image" caption="Species concentrations of Belousov-Zhabotinsky reaction computed with X-TFC, ode15i, and ode15s, for integration time of 120 seconds." %}
 
 
 

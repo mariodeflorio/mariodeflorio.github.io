@@ -97,3 +97,55 @@ where \(k_1, k_2,\) and \(k_3\) are the reaction rate constants, and \(A\), \(B\
 The values of the reaction rate constants are \(k_1 = 0.04\), \(k_2=3 \times 10^7\), and \(k_3 = 10^4\), thus varying in a range of 9 orders. This large variation of the parameters is the cause of the strong stiffness of the problem. In the figure below, we report X-TFC solutions compared with those obtained by the MATLAB stiff ode solver <i>ode15s</i>, which we consider here the true solution for our qualitative and quantitative comparison. The time span for producing this plot is \(t\in[10^{-5},10^5]\), and the training points are uniformly spaced in a logarithmic time scale. The step size used is \(h = 2000\), which allows us to obtain these results in a computational time of about \(0.015\) seconds. The average training error is \(8.5 \times 10^{-12}\). In the top three subplots, we can see how our solutions overlap with those computed by <i>ode15s</i>, with absolute error in the order of \(10^{-15} \div 10^{-05}\) (bottom subplots). This proves that X-TFC method is much more reliable in solving the ROBER problem than the regular PINN, which fails in this task, even if artifacts to reduce the stiffness of the ODE system are employed.
 
 {% include figure image_path="/assets/images/rober.eps" alt="this is a placeholder image" caption="Species concentration of ROBER problem computed with MATLAB ode15s and X-TFC (top) and absolute values of the errors between the two methods (bottom)." %}
+
+
+<hr>
+
+
+<font size="5">Belousov-Zhabotinsky reaction</font>
+<p><br></p>
+<font size="3">
+
+
+Another test case we consider here is the Belousov-Zhabotinsky reaction mechanism, which can be represented by the following scheme of homogeneous chemical reactions in symbolic form:
+\begin{equation}
+    \begin{aligned}
+    A + Y\qquad & \xrightarrow{k_1} \qquad X ,\\
+    X + Y\qquad & \xrightarrow{k_2} \qquad P, \\
+    B + X\qquad & \xrightarrow{k_3} \qquad 2X + Z, \\
+    2X\qquad & \xrightarrow{k_4} \qquad Q, \\
+    Z\qquad & \xrightarrow{k_5} \qquad Y, 
+    \end{aligned}
+\end{equation}
+where the reaction rate constants are \(k_1 = 4.72\), \(k_2 = 3 \times 10^9\), \(k_3 = 1.5 \times 10^4\), \(k_4 = 4 \times 10^7\), and \(k_5 = 1\) \(\left[\frac{L}{mol \cdot s }\right]\). The letters denote the species taking part of the reactions, and the initial concentrations at time \(t=0\) (expressed in \(\frac{mol}{L}\)) are:
+\begin{equation*}
+    Y = X = P = Q = 0, \qquad  A = B = 0.066, \qquad  Z = 0.002 \quad .
+\end{equation*}
+The system of ODEs modeling the Belousov-Zhabotinsky reaction is
+\begin{equation}
+    \begin{cases}
+      y_1' =  - k_1 y_1 y_2 \\
+      y_2' = - k_1 y_1 y_2 - k_2 y_3 y_2 +  k_5 y_6 \\
+      y_3' = - k_2 y_3 y_2 +  k_3 y_3 y_5 - 2k_4 y_3^2 + k_1 y_1 y_2 \\
+      y_4' =  k_2 y_3 y_2 \\
+      y_5' =  -  k_3 y_5 y_3 \\
+      y_6' =    k_3 y_5 y_3 - k_5 y_6  \\
+      y_7' =  k_4 y_3^2
+    \end{cases}
+\end{equation}
+subject to \(y_i(0) = \left( 0.066, 0 , 0,0,0.066,0.002,0  \right)^T\), for \( t \in [0,40]\).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

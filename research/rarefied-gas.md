@@ -41,7 +41,9 @@ header:
 where \(\tau \in [0,a]\) is the half-width of the channel (thanks to the spatial symmetry of the problem, which will ease the computational efforts), \(u\in(-\infty,\infty]\) is the cosine direction of the gas molecules, and \(Z(\tau,\mu)\) is the unknown function of the differential equation (DE), representing the velocity momentum. Depending on the boundary conditions, we can define three different flows, as shown in the following figure. The Thermal creep flow is a flow of a slightly rarefied gas caused by the temperature gradient along a wall, and when in the fluid the viscous forces dominate over inertial forces. The Poiseuille flow is a case of motion of a gas induced by a pressure gradient along the walls of the channel. The Couette flow is a case of motion of a gas induced by relative motion of two parallel plates with opposite velocities. The accommodation coefficient \(\alpha\) quantifies the interaction between a fluid and a solid (in this case the wall).
 
 
-{% include figure image_path="/assets/images/flows.JPG" alt="this is a placeholder image" caption="Boundary conditions for the three different flows, with schematic of the physics of the problems." %}
+{% include figure image_path="/assets/images/flows.JPG" alt="this is a placeholder image" caption="Boundary conditions for the three different flows, with schematics of the physics of the problems." %}
+
+The numerical results for <a href="https://doi.org/10.1007/s00033-022-01767-z"><i>Poiseuille flow</i></a> and <a href="https://doi.org/10.1063/5.0046181"><i>Thermal Creep flow</i></a> are published.
 
 
 

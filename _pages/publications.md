@@ -15,6 +15,7 @@ Journal Papers
 </h2>
 <font size="3">
 <ul>
+  <li>Laghi, L., Schiassi, E., De Florio, M., Furfaro, R., & Mostacci, D. (2023). Physics-Informed Neural Networks for 1-D Steady-State Diffusion-Advection-Reaction Equations, <em>Nuclear Science and Engineering</em>. <a href="https://doi.org/10.1080/00295639.2022.2160604">DOI</a></li>  
   <li>De Florio, M., Schiassi, E., & Furfaro, R. (2022). Physics-informed neural networks and functional interpolation for stiff chemical kinetics. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>, 32(6), 063107. <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Ganapol, B. D., & Furfaro, R. (2022). Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. <em>Zeitschrift für angewandte Mathematik und Physik</em>, 73(3), 1-18. <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>
   <li>Schiassi, E., De Florio, M., Ganapol, B. D., Picca, P., & Furfaro, R. (2022). Physics-informed neural networks for the point kinetics equations for nuclear reactor dynamics. <em>Annals of Nuclear Energy</em>, 167, 108833. <a href="https://doi.org/10.1016/j.anucene.2021.108833">DOI</a>   </li>

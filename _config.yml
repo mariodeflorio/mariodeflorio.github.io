@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Mario De Florio"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
-  bio              : "Postdoctoral Research Associate in the Division of Applied Mathematics, Brown University. Research on Physics-Informed Machine Learning"
+  bio              : "Postdoctoral Research Associate at the Division of Applied Mathematics, Brown University. Research on Physics-Informed Machine Learning"
   location         : # "Providence, RI"
   email            : # "mario.deflorio.93@gmail.com"
   links:

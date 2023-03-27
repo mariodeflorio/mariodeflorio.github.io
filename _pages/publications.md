@@ -15,6 +15,7 @@ Journal Papers
 </h2>
 <font size="3">
 <ul>
+  <li>Bowen, B., Reddy, V., De Florio, M., Kareta, T., Pearson, N., Furfaro, R., ... & Battle, A. (2023). Grain Size Effects on Visible and Near-infrared (0.35–2.5 μm) Laboratory Spectra of Ordinary Chondrite and HED Meteorites. <em>The Planetary Science Journal</em>, 4(3), 52. <a href="https://doi.org/10.3847/PSJ/acb268">DOI</a></li>
   <li>Laghi, L., Schiassi, E., De Florio, M., Furfaro, R., & Mostacci, D. (2023). Physics-Informed Neural Networks for 1-D Steady-State Diffusion-Advection-Reaction Equations, <em>Nuclear Science and Engineering</em>. <a href="https://doi.org/10.1080/00295639.2022.2160604">DOI</a></li>  
   <li>De Florio, M., Schiassi, E., & Furfaro, R. (2022). Physics-informed neural networks and functional interpolation for stiff chemical kinetics. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>, 32(6), 063107. <a href="https://doi.org/10.1063/5.0086649">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Ganapol, B. D., & Furfaro, R. (2022). Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation. <em>Zeitschrift für angewandte Mathematik und Physik</em>, 73(3), 1-18. <a href="https://doi.org/10.1007/s00033-022-01767-z">DOI</a>  </li>

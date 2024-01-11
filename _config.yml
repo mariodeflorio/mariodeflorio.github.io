@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Mario De Florio"
 title_separator          : "-"
-subtitle                 : "Energy, Nuclear, Systems Engineer" # site tagline that appears below site title in masthead
+subtitle                 : "Energy, Nuclear, Systems, AI Engineer" # site tagline that appears below site title in masthead
 name                     : "Mario De Florio"
 description              : "Mario De Florio"
 url                      : https://mariodeflorio.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

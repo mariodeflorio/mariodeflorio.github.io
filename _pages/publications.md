@@ -15,7 +15,7 @@ Journal Papers
 </h2>
 <font size="3">
 <ul>
-  <li>Daryakenari, N. A., De Florio, M., Shukla, K., & Karniadakis, G. E. (2024). AI-Aristotle: A physics-informed framework for systems biology gray-box identification. Plos Computational Biology, 20(3). <a href="10.1371/journal.pcbi.1011916">DOI<\a><\li>
+  <li>Daryakenari, N. A., De Florio, M., Shukla, K., & Karniadakis, G. E. (2024). AI-Aristotle: A physics-informed framework for systems biology gray-box identification. Plos Computational Biology, 20(3). <a href="10.1371/journal.pcbi.1011916">DOI</a></li>
   <li>Taccari, M.L., Wang, H., Goswami, S., De Florio, M., Nuttall, J., Chen, X. & Jimack, P.K. (2024). Developing a cost-effective emulator for groundwater flow modeling using deep neural operators. <em>Journal of Hydrology</em>, p.130551. <a href="https://doi.org/10.1016/j.jhydrol.2023.130551">DOI</a></li>
   <li>Cantillo, D.C., Reddy, V., Battle, A., Sharkey, B.N., Pearson, N.C., Campbell, T., Satpathy, A., De Florio, M., Furfaro, R. & Sanchez, J. (2023). Grain Size Effects on UV–MIR (0.2–14 um) Spectra of Carbonaceous Chondrite Groups. <em>The Planetary Science Journal</em>, 4(9), p.177. <a href="http://dx.doi.org/10.3847/PSJ/acf298">DOI</a></li>
   <li>De Florio, M., Schiassi, E., Calabrò, F., & Furfaro, R. (2024). Physics-Informed Neural Networks for 2nd order ODEs with sharp gradients. <em>Journal of Computational and Applied Mathematics</em>, 436, 115396. <a href="https://doi.org/10.1016/j.cam.2023.115396">DOI</a></li>  

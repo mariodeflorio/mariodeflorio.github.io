@@ -52,7 +52,7 @@ Conference Proceedings
 
 <font size="3">
 <ul>
-  <li>Schiassi, E., D’ambrosio, A., Johnston, H., De Florio, M., Drozd, K., Furfaro, R., ... & Mortari, D. (2020, August). Physics-informed extreme theory of functional connections applied to optimal orbit transfer. In <em>Proceedings of the AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, USA</em> (pp. 9-13). <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
+  <li>Schiassi, E., D’Ambrosio, A., Johnston, H., De Florio, M., Drozd, K., Furfaro, R., ... & Mortari, D. (2020, August). Physics-informed extreme theory of functional connections applied to optimal orbit transfer. In <em>Proceedings of the AAS/AIAA Astrodynamics Specialist Conference, Lake Tahoe, CA, USA</em> (pp. 9-13). <a href="https://www.researchgate.net/publication/343627850_Physics-Informed_Extreme_Theory_of_Functional_Connections_Applied_to_Optimal_Orbit_Transfer">RG</a>   </li>
   <li>Sonnett, S., Grav, T., Williamson, B., Witry, J., Reddy, V., Furfaro, R., ... & Bauer, J. (2019, September). Lightcurves, Shape Models, and HG Parameters of Trojan and Hilda Binary Candidates. In <em>EPSC-DPS Joint Meeting 2019</em> (Vol. 2019, pp. EPSC-DPS2019). </li>
 </ul>
 </font>

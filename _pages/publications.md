@@ -41,6 +41,8 @@ Preprints
 
 <font size="3">
 <ul>
+  <li>De Florio, M., Zongren, Z., Schiavazzi, D.E., and Karniadakis, G.E., 2024. Quantification of total uncertainty in the physics-informed reconstruction of CVSim-6 physiology. <em>arXiv preprint:2408.07201</em>. <a href="https://arxiv.org/abs/2408.07201">arXiv</a>  </li>     
+  <li>Sanchez, J.A., Reddy, V., Thirouin, A., Bottke, W.F., Kareta, T., \textbf{De Florio, M.}, Sharkey, B.N., Battle, A., Cantillo, D.C. and Pearson, N., 2024. The population of small near-Earth objects: composition, source regions and rotational properties. <em>arXiv preprint:2404.18263</em>. <a href="https://arxiv.org/abs/2404.18263">arXiv</a>  </li>         
   <li>De Florio, M., Kahana, A. & Karniadakis, G.E. (2023). Analysis of biologically plausible neuron models for regression with spiking neural networks. <em>arXiv preprint:2401.00369</em>. <a href="https://arxiv.org/abs/2401.00369">arXiv</a>  </li>        
   <li>De Florio, M., Kevrekidis, I.G. & Karniadakis, G.E. (2023). AI-Lorenz: A physics-data-driven framework for black-box and gray-box identification of chaotic systems with symbolic regression. <em>arXiv preprint:2312.14237</em>. <a href="https://arxiv.org/abs/2312.14237">arXiv</a>  </li>          
   <li>Daryakenari, N.A., De Florio, M., Shukla, K. & Karniadakis, G.E. (2023). AI-Aristotle: A Physics-Informed framework for Systems Biology Gray-Box Identification. <em>arXiv preprint:2310.01433</em>. <a href="https://arxiv.org/abs/2310.01433">arXiv</a>  </li>          
